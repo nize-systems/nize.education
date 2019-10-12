@@ -14,17 +14,17 @@
   </url>
   <url>
     <loc>http://nizesystems.com/learn-more.html</loc>
-    <lastmod>2019-09-27</lastmod>
+    <lastmod>2019-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://nizesystems.com/images/nize_white.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://nizesystems.com/images/download-back-button-png-image-59237-for-designing-projects-crop-u332.png</image:loc>
+      <image:loc>http://nizesystems.com/images/71185938_537086873729944_1351595705193463808_n.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://nizesystems.com/images/71185938_537086873729944_1351595705193463808_n.png</image:loc>
+      <image:loc>http://nizesystems.com/images/sed-23-512.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -40,6 +40,66 @@
     </image:image>
     <image:image>
       <image:loc>http://nizesystems.com/images/1b75ad7f64a94f07b8bae92b1ff4ed1a.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://nizesystems.com/class-attendance.html</loc>
+    <lastmod>2019-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/nize_white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/sed-23-512.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/handraising-624x326.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://nizesystems.com/student-view.html</loc>
+    <lastmod>2019-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/nize_white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/sed-23-512.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/download.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://nizesystems.com/teacher-view.html</loc>
+    <lastmod>2019-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/nize_white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/sed-23-512.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/teacher-edtech-feature-image.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://nizesystems.com/access.html</loc>
+    <lastmod>2019-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/nize_white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/sed-23-512.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nizesystems.com/images/0619-highschoolflex.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
