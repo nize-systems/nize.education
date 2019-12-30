@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1577681433129">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1577682511199">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4037011843" ref="index"/>
+    <file name="index.css" crc="3846636473" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -50,7 +50,7 @@
     <file name="u732-4.png" crc="4182658941" ref="index"/>
     <file name="u717-4.png" crc="40180657" ref="index"/>
     <file name="u721-4.png" crc="3770886785" ref="index"/>
-    <file name="u733-4.png" crc="3770886785" ref="index"/>
+    <file name="u733-4.png" crc="40180657" ref="index"/>
     <file name="kishore hariharan, chief financial officer.jpg" crc="529459087" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -69,12 +69,12 @@
     <file name="u793-4.png" crc="494508019" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="u799.png" crc="4257377338" ref="index"/>
-    <file name="u799-r.png" crc="16967144" ref="index"/>
+    <file name="u799-r.png" crc="4257377338" ref="index"/>
     <file name="u811-4.png" crc="3805484268" ref="index"/>
     <file name="u815.png" crc="3982896398" ref="index"/>
-    <file name="u815-r.png" crc="3987423935" ref="index"/>
+    <file name="u815-r.png" crc="3982896398" ref="index"/>
     <file name="u821-4.png" crc="4050319450" ref="index"/>
     <file name="u824-9.png" crc="472802516" ref="index"/>
   </folder>
-  <file name="index.html" crc="3852323750" seo="true" mt="1577681076937" redirect="true"/>
+  <file name="index.html" crc="4197256404" seo="true" mt="1577682506750" redirect="true"/>
 </manifest>
