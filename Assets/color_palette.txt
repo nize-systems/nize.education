@@ -1,5 +1,0 @@
-red = #dc3053
-green = #7af9c4
-yellow = #ffd579
-blue = #4ca3f5
-purple = #7a94ff

@@ -1,0 +1,80 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1577681114166">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4037011843" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3939489907" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3936894949" ref="index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index"/>
+    <file name="require.js" crc="4177726516" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="157147066860438209 (1).png" crc="206789048" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="silhouette-of-mountains-during-dawn-1809644.jpg" crc="4097042282" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u138-4.png" crc="309950852" ref="index"/>
+    <file name="157147066860438209.png" crc="246796060" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u144-4.png" crc="520448112" ref="index"/>
+    <file name="68418262_1129326280592187_2592405666744238080_n.png" crc="347520476" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u338-4.png" crc="268254382" ref="index"/>
+    <file name="tuxpicom1577673596.jpg" crc="317763872" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u588-4.png" crc="477052265" ref="index"/>
+    <file name="u607-4.png" crc="256971750" ref="index"/>
+    <file name="u620-4.png" crc="375839814" ref="index"/>
+    <file name="u623-4.png" crc="4081063218" ref="index"/>
+    <file name="u631-4.png" crc="4277126552" ref="index"/>
+    <file name="premkumar giridhar, chief information officer.jpg" crc="4178230719" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logan dickey, chief executive officer.jpg" crc="4220528274" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vishal muthuraja, chief technology officer.jpg" crc="4062768312" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u714-4.png" crc="450456410" ref="index"/>
+    <file name="u720-4.png" crc="3821680365" ref="index"/>
+    <file name="u732-4.png" crc="4182658941" ref="index"/>
+    <file name="u717-4.png" crc="40180657" ref="index"/>
+    <file name="u721-4.png" crc="3770886785" ref="index"/>
+    <file name="u733-4.png" crc="3770886785" ref="index"/>
+    <file name="kishore hariharan, chief financial officer.jpg" crc="529459087" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tarun prakash, chief operating officer.jpg" crc="4121734077" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u738-4.png" crc="3991997421" ref="index"/>
+    <file name="u744-4.png" crc="374914225" ref="index"/>
+    <file name="u739-4.png" crc="4011505175" ref="index"/>
+    <file name="u745-4.png" crc="4084226455" ref="index"/>
+    <file name="u756-4.png" crc="310911591" ref="index"/>
+    <file name="71185938_537086873729944_1351595705193463808_n.png" crc="4115789754" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u786-4.png" crc="26526483" ref="index"/>
+    <file name="u793-4.png" crc="494508019" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u799.png" crc="4257377338" ref="index"/>
+    <file name="u799-r.png" crc="16967144" ref="index"/>
+    <file name="u811-4.png" crc="3805484268" ref="index"/>
+    <file name="u815.png" crc="3982896398" ref="index"/>
+    <file name="u815-r.png" crc="3987423935" ref="index"/>
+    <file name="u821-4.png" crc="4050319450" ref="index"/>
+    <file name="u824-9.png" crc="472802516" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3852323750" seo="true" mt="1577681076937" redirect="true"/>
+</manifest>
