@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1577683761770">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1577684685269">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="25895734" ref="index"/>
+    <file name="index.css" crc="3953278216" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -80,5 +80,5 @@
     <file name="u845-4.png" crc="4031191272" ref="index"/>
     <file name="u848-4.png" crc="534937755" ref="index"/>
   </folder>
-  <file name="index.html" crc="48702494" seo="true" mt="1577683748315" redirect="true"/>
+  <file name="index.html" crc="4055395303" seo="true" mt="1577684449256" redirect="true"/>
 </manifest>
