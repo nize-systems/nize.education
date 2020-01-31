@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1578276360086">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nize.education" resolutions="1x" timestamp="1580453027460">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="138483602" ref="index"/>
+    <file name="index.css" crc="3915658189" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -32,7 +32,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u588-4.png" crc="3773982645" ref="index"/>
-    <file name="u607-4.png" crc="256971750" ref="index"/>
+    <file name="u607-4.png" crc="3969816250" ref="index"/>
     <file name="u620-4.png" crc="375839814" ref="index"/>
     <file name="u623-4.png" crc="4081063218" ref="index"/>
     <file name="u631-4.png" crc="4277126552" ref="index"/>
@@ -48,9 +48,9 @@
     <file name="u714-4.png" crc="450456410" ref="index"/>
     <file name="u720-4.png" crc="3821680365" ref="index"/>
     <file name="u732-4.png" crc="4182658941" ref="index"/>
-    <file name="u717-4.png" crc="40180657" ref="index"/>
+    <file name="u717-4.png" crc="112474499" ref="index"/>
     <file name="u721-4.png" crc="3770886785" ref="index"/>
-    <file name="u733-4.png" crc="112474499" ref="index"/>
+    <file name="u733-4.png" crc="40180657" ref="index"/>
     <file name="kishore hariharan, chief financial officer.jpg" crc="529459087" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -59,7 +59,7 @@
     </file>
     <file name="u738-4.png" crc="3991997421" ref="index"/>
     <file name="u744-4.png" crc="374914225" ref="index"/>
-    <file name="u739-4.png" crc="4011505175" ref="index"/>
+    <file name="u739-4.png" crc="298870713" ref="index"/>
     <file name="u745-4.png" crc="4084226455" ref="index"/>
     <file name="u756-4.png" crc="310911591" ref="index"/>
     <file name="71185938_537086873729944_1351595705193463808_n.png" crc="4115789754" ref="index">
@@ -80,5 +80,5 @@
     <file name="u845-4.png" crc="4031191272" ref="index"/>
     <file name="u848-4.png" crc="534937755" ref="index"/>
   </folder>
-  <file name="index.html" crc="418393559" seo="true" mt="1578276328372" redirect="true"/>
+  <file name="index.html" crc="3819474371" seo="true" mt="1580453024343" redirect="true"/>
 </manifest>
