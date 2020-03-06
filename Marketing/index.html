@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nize Systems - Home</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<header>
+  <img alt="Nize Logo" src="img/nize_logo_white_transparent.png">
+  <p>Nize Systems</p>
+  <nav>
+    <a>Tools</a>
+    <a>About</a>
+    <a>Support</a>
+    <a>Inquire</a>
+  </nav>
+</header>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<main>
+  <section id="main_splash">
+    <img id="main_splash_image" src="img/classroom2.jpg">
+    <p id="catch"></p>
+    <div id="main_sec_wrapper">
+      <div id="main_sec1" class="main_sec" style="opacity: 0;">
+        <h1>Get More Done with Nize</h1>
+        <h2>Employing industry-leading machine learning and data analytics, keep your school safe, smart, and efficient with our <a>Educational Tools</a></h2>
+        <a>See More</a>
+      </div>
+      <div id="main_sec2" class="main_sec" style="opacity: 0;">
+        <h1>Integrate Nize into Your Current Ecosystem</h1>
+        <h2>The Nize Educational Suite integrates directly into your current ecosystem, seamlessly. Visit the <a>Educational Tools</a></h2>
+        <a>See More</a>
+      </div>
+      <div id="main_sec3" class="main_sec" style="opacity: 0;">
+        <h1>Backed by Powerful Adaptive Software</h1>
+        <h2>Stay ahead of the curve with <a>Nize Analytics</a>, now part of the Nize <a>Educational Tools</a> suite.</h2>
+        <a>See More</a>
+      </div>
+    </div>
+    <a></a>
+    <script>
+
+        var i = 0;
+        var txt = 'Educational Tools, Made Easy'; /* The text */
+        var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("catch").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        setTimeout(function(){typeWriter()}, 500);
+
+        setTimeout(function() {
+            document.getElementById("main_splash_image").style.filter = "blur(8px)"
+            setTimeout(function() {document.getElementById("catch").style.top = "60px"}, 1500)
+
+            setTimeout(function() {document.getElementById("main_sec1").style.opacity = "1"}, 2000)
+            setTimeout(function() {document.getElementById("main_sec2").style.opacity = "1"}, 2200)
+            setTimeout(function() {document.getElementById("main_sec3").style.opacity = "1"}, 2400)
+        }, 500)
+    </script>
+  </section>
+</main>
+
+<footer>
+  <div id="footer_left">
+    <a href="https://nize.education"><img src="./img/nize_banner_white_transparent.png" id="footer_logo" alt="Nize Logo"></a>
+    <p id="footer_desc">Educational management tools designed to make the classroom a safer and friendlier place.</p>
+    <div class="notfound-social noselect footer_social">
+      <a href="https://www.linkedin.com/company/hoosh-delivery/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/company/hoosh-delivery/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/officialhoosh/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/hooshdelivery" target="_blank"><i class="fa fa-twitter"></i></a>
+    </div>
+  </div>
+  <div id="footer_right">
+    <div class="footer_info_column">
+      <h3 class="footer_col_title">Discover</h3>
+      <a class="footer_col_link" href="https://nize.education">Education Tools</a>
+      <a class="footer_col_link" href="https://nize.education">Presence Attendance</a>
+      <a class="footer_col_link" href="https://nize.education">NizeSense&trade; WiFi</a>
+      <a class="footer_col_link" href="https://nize.education">Library Management</a>
+    </div>
+    <div class="footer_info_column">
+      <h3 class="footer_col_title">Company</h3>
+      <a class="footer_col_link" href="https://hooshdelivery.com/about">About</a>
+      <a class="footer_col_link" href="https://hooshdelivery.com/contact">Support</a>
+      <a class="footer_col_link" href="https://hooshdelivery.com/contact">Inquire</a>
+      <a class="footer_col_link" href="https://hooshdelivery.com/sitemap.xml">Sitemap</a>
+    </div>
+    <div class="footer_info_column">
+      <h3 class="footer_col_title">Legal</h3>
+      <a class="footer_col_link" href="https://hooshdelivery.com/terms-of-use">Terms of Use</a>
+      <a class="footer_col_link" href="https://hooshdelivery.com/privacy">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
