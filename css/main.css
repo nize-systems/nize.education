@@ -168,30 +168,35 @@ main section:not(.subsection) {
 Not supports in Firefox and IE */
 
 /* total width */
-body::-webkit-scrollbar {
-  background-color: #222222;
-  width:14px
-}
+@media (min-width: 1000px) {
+  body::-webkit-scrollbar {
+    background-color: #222222;
+    width: 14px
+  }
 
-/* background of the scrollbar except button or resizer */
-body::-webkit-scrollbar-track {
-}
+  /* background of the scrollbar except button or resizer */
+  body::-webkit-scrollbar-track {
+  }
 
-/* scrollbar itself */
-body::-webkit-scrollbar-thumb {
-  background-color:#ffffff;
-  border-radius:16px;
-  border:3px solid #222222;
-}
+  /* scrollbar itself */
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 3px solid #222222;
+  }
 
-/* set button(top and bottom of the scrollbar) */
-body::-webkit-scrollbar-button {display:none}
+  /* set button(top and bottom of the scrollbar) */
+  body::-webkit-scrollbar-button {
+    display: none
+  }
 
-.scrollable-content::-webkit-scrollbar * {
-  background:transparent;
-}
-.scrollable-content::-webkit-scrollbar-thumb {
-  background:#999 !important;
+  .scrollable-content::-webkit-scrollbar * {
+    background: transparent;
+  }
+
+  .scrollable-content::-webkit-scrollbar-thumb {
+    background: #999 !important;
+  }
 }
 
 .noselect {
@@ -1062,4 +1067,102 @@ ul li::before {
 
 .sub_feature a:hover {
   box-shadow: 0 0 8px lightgray;
+}
+
+/* RESPONSIVE FOR MOBILE */
+@media (max-width: 1000px) {
+    #footer_left {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0;
+    }
+
+    #footer_desc {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    #footer_right {
+        display: none;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+  nav {
+    display: none;
+  }
+
+  svg {
+    display: none;
+  }
+
+  #see_more {
+    display: none;
+  }
+
+  .main_sec a.more {
+    width: 50px;
+  }
+
+  .circle, .circle2 {
+    display: none;
+  }
+
+  #after_load h1 {
+    margin-top: 30px;
+  }
+
+  #after_load h2 {
+    width: 80%;
+  }
+
+  ul li::before {
+    display: none;
+  }
+
+  #after_load section {
+    width: 100%;
+  }
+
+  #after_load ul {
+    margin-left: 5px;
+    margin-top: 50px;
+  }
+
+  main section:not(.subsection) {
+    height: 620px;
+  }
+
+  #after_load section a {
+
+  }
+
+  ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #after_load #right img {
+    display: none;
+    margin-top: -20px;
+    margin-bottom: 250px;
+  }
+
+  #right {
+    clear: both;
+    height: 430px;
+  }
+
+  #about {
+    margin-top:-1000px;
+  }
 }
