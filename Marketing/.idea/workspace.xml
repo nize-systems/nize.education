@@ -2,9 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af3441f-e7e5-49c6-b028-8292e8cca31b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Marketing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-ExpandedBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-ExpandedBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/GTAmerica-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontstylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/TOC.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/css.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/extend.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Layer_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/classroom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/classroom2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iphone_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/marketin_cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_banner_black_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_banner_white_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_data_anaytics_cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_logo_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_logo_black_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_logo_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nize_logo_white_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/modernizr-3.8.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tile-wide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/site_global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/157147066860438209 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/157147066860438209.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/68418262_1129326280592187_2592405666744238080_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/71185938_537086873729944_1351595705193463808_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/kishore hariharan, chief financial officer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/logan dickey, chief executive officer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/premkumar giridhar, chief information officer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/silhouette-of-mountains-during-dawn-1809644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tarun prakash, chief operating officer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tuxpicom1577673596.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u138-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u144-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u338-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u588-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u607-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u620-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u623-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u631-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u714-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u717-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u720-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u721-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u732-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u733-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u738-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u739-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u744-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u745-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u756-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u786-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u793-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u799-r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u799.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u811-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u815-r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u815.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u821-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u824-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u839-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u842-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u845-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/u848-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/vishal muthuraja, chief technology officer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../muse_manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/jquery.musepolyfill.bgsize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/jquery.watch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/museconfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/museutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/whatinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sitemap.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +138,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,12 +147,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="C:\Users\Logan\PycharmProjects\Marketing\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -77,7 +194,10 @@
       <option name="presentableId" value="Default" />
       <updated>1583462814201</updated>
       <workItem from="1583462815336" duration="12474000" />
-      <workItem from="1583530275763" duration="30062000" />
+      <workItem from="1583530275763" duration="34871000" />
+      <workItem from="1583772882944" duration="48000" />
+      <workItem from="1583782401841" duration="1667000" />
+      <workItem from="1583854418990" duration="10828000" />
     </task>
     <servers />
   </component>
@@ -89,7 +209,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
