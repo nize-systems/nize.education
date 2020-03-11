@@ -992,7 +992,6 @@ ul li::before {
 }
 
 #features h1 {
-  margin-right: 37%;
   margin-top: 80px;
   line-height: 45px;
   display: inline-block;
@@ -1236,7 +1235,8 @@ ul li::before {
 
   #features h1 {
     width: 80%;
-    margin-left: 10%;
+    margin-right: 0px;
+    margin-left: calc(10% - 30px);
   }
 
   #features .sub_feature {
@@ -1257,15 +1257,17 @@ ul li::before {
   }
 
   #landing_intro .sub_div {
-    width: 100%;
+    width: 85%;
   }
 
   .feature i {
-    margin-right: 10px;
+    float: left;
+    margin-top: -2px;
+    margin-right: 20px;
   }
 
   .feature p {
-    margin-left: 40px;
+    margin-left: 46px;
   }
 
   .feature h2 {
@@ -1275,10 +1277,14 @@ ul li::before {
   .feature {
     width: 80%;
     display: inline-block;
-margin-left: -10px;
+    margin-left: -10px;
+    padding-bottom: 20px;
   }
 
   #landing_intro {
     height: 1350px;
+    padding-bottom: 100px;
   }
+
+
 }
