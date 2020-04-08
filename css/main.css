@@ -1150,7 +1150,7 @@ ul li::before {
   }
 
   /* #about_after_bottom {
-    margin-right: 0;
+    margin-right: -100px;
   } */
 
   .d4 {
@@ -1163,6 +1163,31 @@ ul li::before {
     left: 170px;
   }
 
+  .main_sec {
+    width: 30vw;
+    height: 350px;
+  }
+
+  .main_sec h3 {
+    font-size: 20px;
+  }
+
+  #main_sec3 {
+    margin-right: 0;
+  }
+
+  #custom_solutions, #safety {
+    margin-top: 75px;
+  }
+
+  #features {
+    padding-bottom: -300px;
+  }
+
+  #landing_intro .sub_div {
+    width: 38%;
+    margin-left: 8%;
+  }
 }
 
 @media (max-width: 820px) {
