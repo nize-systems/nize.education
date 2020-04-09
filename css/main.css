@@ -1,6 +1,7 @@
-html {
+html, body{
   font-family: "GT America";
   overflow-x: hidden;
+  width: 100%;
 }
 
 header {
@@ -1157,6 +1158,10 @@ ul li::before {
     font-size: 40px;
   }
 
+  #features .sub_feature{
+      height:400px;
+  }
+
   #see_more2 i {
     margin-bottom: 400px;
   }
@@ -1225,6 +1230,10 @@ ul li::before {
 
   #see_more, #see_more2, #see_more3 {
     display: none;
+  }
+
+  .data_div{
+      margin-right:5px;
   }
 
   .main_sec a.more {
@@ -1360,7 +1369,7 @@ ul li::before {
 
   #features .sub_feature {
     width: 90%;
-    height: 340px;
+    height: 400px;
     margin-bottom: 30px;
   }
 
@@ -1394,9 +1403,10 @@ ul li::before {
   }
 
   .feature {
-    width: 80%;
+    width: 90%;
     display: inline-block;
-    margin-left: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
     padding-bottom: 20px;
   }
 
@@ -1404,4 +1414,9 @@ ul li::before {
     height: 1350px;
     padding-bottom: 100px;
   }
+
+  footer {
+      margin-top:100px;
+  }
+
 }
