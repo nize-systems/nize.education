@@ -1220,6 +1220,13 @@ ul li::before {
 }
 
 @media (max-width: 930px) {
+
+  html, body {
+    font-family: "GT America";
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   nav {
     display: none;
   }
@@ -1317,7 +1324,11 @@ ul li::before {
   }
 
   .data_div > a {
-    margin-left: 30px;
+    margin-left:15px;
+  }
+
+  .data_div > a h3 {
+    margin-right: -30px;
   }
 
   .main_sec h2 {
