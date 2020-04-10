@@ -580,6 +580,28 @@ ul {
   list-style-type: none;
 }
 
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+  color: #222222;
+  font-weight: 300;
+  width: 80%;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ol li::before {
+    content: '\f058';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: rgb(123,151,252);
+}
+
+
 ul li {
   color: #222222;
   font-weight: 300;
