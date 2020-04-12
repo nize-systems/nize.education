@@ -14,7 +14,8 @@
   <meta charset="utf-8">
   <title>Presence Education Suite | Nize Systems</title>
   <meta name="description" content="Presence Educational Suite offers powerful attendance tracking solutions, insightful analytics, and custom solutions designed to integrate into your current ecosystem.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <link rel="stylesheet" href="css/fontstylesheet.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -125,20 +126,55 @@
       .pg {
           color: #222222;
           font-weight: 300;
-          width: 80%;
+          width: 85%;
           line-height: 30px;
-          font-size: 20px;
-          margin-bottom: 20px;
-          font-size: 20px;
-          line-height: 28px;
+          font-size: 12px;
+          margin-bottom: 10px;
+          line-height: 20px;
+      }
+
+      .hd {
+          font-size: 12px;
       }
 
       .smaller {
-          font-size: 15px;
+          font-size: 12px;
       }
 
       #list {
           margin-top: 15px
+      }
+
+      .gn {
+          display:none;
+      }
+
+      .sb {
+          font-size : 16px;
+      }
+
+      @media only screen and (min-width:768px) {
+          .pg {
+          color: #222222;
+          font-weight: 300;
+          width: 100%;
+          line-height: 30px;
+          font-size: 18px;
+          margin-bottom: 10px;
+          line-height: 24px;
+      }
+        .gn {
+        	display: block;
+        }
+
+        .sb {
+                  font-size : 18px;
+              }
+
+        .smaller {
+                  font-size: 15px;
+              }
+
       }
 
   </style>
@@ -172,21 +208,21 @@
 
     <div id="after_load">
         <section style="z-index: 100000">
-          <h1>Nize MicroLibrary</h1>
+          <h1 class = "hd">Nize MicroLibrary</h1>
           <h2>Libraries. Redefined.</h2>
           <br><br>
-          <p class = "pg"><strong>Microlibrary is built for teachers all around the world, whether you’re looking to make lending books easier or allow for easy collaboration between students; Microlibrary makes it easy to modernize your library. Microlibrary features beautiful hardware along with sophisticated software that pair to create the perfect library for your institution.</strong></p>
-          <br><br><br><br><br><h2>Why Presence?</h2>
+          <p class = "pg">Microlibrary is built for teachers all around the world, whether you’re looking to make lending books easier or allow for easy collaboration between students; Microlibrary makes it easy to modernize your library. Microlibrary features beautiful hardware along with sophisticated software that pair to create the perfect library for your institution.</p>
+          <br class = "gn"><br class = "gn"><br class = "gn"><br><br><h2>Features</h2>
           <div class = "left">
           <ol style = "margin-top:20px">
-            <li><strong>Easy Lending</strong><br><span class = "smaller">Our barcode-based checkout system makes lending quick and simple.</span></li>
-            <li><strong>Smart Book Recommendations</strong><br><span class = "smaller">Microlibrary learns each user's preferences and recommends books based on their history.</span></li>
-            <li><strong>Collaboration</strong><br><span class = "smaller">We support collaboration-focused reading groups for a more tight-knit classroom.</span></li>
+            <li><strong class = "sb">Easy Lending</strong><br><span class = "smaller">Our barcode-based checkout system makes lending quick and simple.</span></li>
+            <li><strong class = "sb">Smart Book Recommendations</strong><br><span class = "smaller">Microlibrary learns each user's preferences and recommends books based on their history.</span></li>
         </ol>
     </div>
     <div class = "right">
           <ol style = "margin-top:20px">
-              <li><strong>Sophisticated Hardware</strong><br><span class = "smaller">Our hardware makes checking books in or out easier than ever.</span></li>
+              <li><strong class = "sb">Collaboration</strong><br><span class = "smaller">We support collaboration-focused reading groups for a more tight-knit classroom.</span></li>
+              <li><strong class = "sb">Sophisticated Hardware</strong><br><span class = "smaller">Our hardware makes checking books in or out easier than ever.</span></li>
           </ol>
       </div>
         </section>
@@ -223,17 +259,17 @@
       <div id="main_sec_wrapper">
         <div id="main_sec1" class="main_sec" style="opacity: 0;">
           <h2>Demo 1</h2>
-          <h3>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</h3>
+          <h3>Lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum </h3>
           <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec2" class="main_sec" style="opacity: 0;">
             <h2>Demo 2</h2>
-            <h3>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</h3>
+            <h3>Lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum</h3>
             <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec3" class="main_sec" style="opacity: 0;">
             <h2>Demo 3</h2>
-            <h3>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</h3>
+            <h3>Lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum</h3>
             <a class="more">Launch Demo</a>
         </div>
       </div>

@@ -289,7 +289,7 @@ Not supports in Firefox and IE */
 .main_sec h2 {
   text-align: center;
   width: 100%;
-  font-size: 22px;
+  font-size: 20px;
   color: #222222;;
   margin-top: 25px;
   font-weight: 500;
@@ -491,7 +491,7 @@ footer a:hover .header_new_button {
 
 #after_load h1 {
   font-weight: 300;
-  font-size: 50px;
+  font-size: 38px;
   margin-top: 80px;
 }
 
@@ -1190,9 +1190,7 @@ ul li::before {
     height: 350px;
   }
 
-  .main_sec h3 {
-    font-size: 20px;
-  }
+
 
   #main_sec3 {
     margin-right: 0;
@@ -1276,8 +1274,8 @@ ul li::before {
   }
 
   #about {
-    margin-top:-400px;
-    height: 1350px;
+    margin-top:-140px;
+    height: 1200px;
   }
 
   #about_content h1 {
@@ -1291,6 +1289,15 @@ ul li::before {
     display: inline-block;
   }
 
+
+  .main_sec h3 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .main_sec h3 {
+    font-size: 14px;
+  }
   #main_sec_wrapper {
     top: initial;
     margin-top: 20px;
@@ -1314,10 +1321,7 @@ ul li::before {
     margin-left: 10%;
   }
 
-  .main_sec h3 {
-    font-size: 16px;
-    line-height: 25px;
-  }
+
 
   .main_sec a.more {
     position: initial;
@@ -1398,4 +1402,61 @@ ul li::before {
     height: 1350px;
     padding-bottom: 100px;
   }
+}
+
+@media only screen and (min-width:768px) {
+    .main_sec h3 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+.main_sec h3 {
+    font-size: 20px;
+  }
+
+
+#after_load h1 {
+  font-weight: 300;
+  font-size: 50px;
+  margin-top: 80px;
+}
+
+#about {
+    margin-top:-50px;
+    height: 1350px;
+  }
+  #first-wavy-line {
+    margin-left: -8vw;
+    top: -40px;
+    position:relative;
+    z-index: -1;
+  }
+
+}
+
+@media only screen and (min-width:900px) {
+    #about {
+        margin-top: -140px;
+        height:600px;
+    }
+    #first-wavy-line {
+      margin-left: -8vw;
+      top: -135px;
+      position:relative;
+      z-index: -1;
+    }
+}
+
+
+@media only screen and (min-width:1200px) {
+    #about {
+        margin-top: -400px;
+        height:600px;
+    }
+    #first-wavy-line {
+      margin-left: -8vw;
+      top: -390px;
+      position:relative;
+      z-index: -1;
+    }
 }
