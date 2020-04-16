@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/fontstylesheet.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css?e">
+  <link rel="stylesheet" href="css/presence.css?e">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
@@ -164,7 +164,57 @@
             }
       }
 
+      .sub_feature br {
+          display: block;
+          margin: 5px 0;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse:separate;
+      border:solid rgb(244,244,244) 5px;
+      border-radius:20px;
+      -moz-border-radius:20px;
+    }
+
+    td, th {
+      /*border: 3px solid #dddddd;*/
+      text-align: left;
+      padding: 18px;
+    }
+
+    /*tr:nth-child(even) {
+      background-color: #dddddd;
+    }*/
+
+    .blue-row {
+        background-color: rgb(123,151,252)
+    }
+
+    .gray-row {
+        background-color: rgb(244,244,244)
+    }
+
+    .dot {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(123,151,252);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .circle {
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      border: solid 6px rgb(123,151,252);
+      width: 15px;
+      height: 15px;
+      display:inline-block;
+    }
+
   </style>
+
 </head>
 
 <body>
@@ -246,19 +296,19 @@
       <h1>Features</h1>
       <div id="main_sec_wrapper">
         <div id="main_sec1" class="main_sec" style="opacity: 0;">
-          <h2>Demo 1</h2>
-          <h3>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</h3>
+          <h2>Pass System</h2>
+          <h3>Create a pass to admit or excuse students from a class at a certain time. The pass pops up on the dashboard with the student's ID, and the student scans out of class with their ID or QR code.</h3>
           <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec2" class="main_sec" style="opacity: 0;">
-            <h2>Demo 2</h2>
-            <h3>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</h3>
+            <h2>Sign In/Out</h2>
+            <h3>If a student wants to sign out of class, he/she can ask the teacher and simply tap out. The student's status is updated on the teacher dashboard and mobile app, and the teacher can view information such as duration and trends.</h3>
             <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec3" class="main_sec" style="opacity: 0;">
             <h2>Demo 3</h2>
-            <h3>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</h3>
-            <a class="more">Launch Demo</a>
+            <h3>Coming Soon!</h3>
+            <!-- <a class="more">Launch Demo</a> -->
         </div>
       </div>
       <a id="see_more2" onclick="seeMore2()" style="opacity: 0"><i class="fa fa-chevron-down"></i></a>
@@ -267,45 +317,159 @@
   <svg id="about_after_bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#7A94FF" fill-opacity="1" d="M0,288L80,288C160,288,320,288,480,277.3C640,267,800,245,960,240C1120,235,1280,245,1360,250.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
   </svg>
-
+<div class="sub_bar" style="background-color: #7A94FF"></div>
   <section id="features">
-    <!-- <div class="sub_bar" style="background-color: #7A94FF"></div> -->
+
     <div id="sub_feature_container">
-        <br><br><br><br>
       <div class="sub_feature">
         <br><br>
         <h2>Student View</h2>
-        <p>Lorem Ipsum</p>
+        <p style = "margin-bottom=30px;">Students can view information posted by teachers and admin.</p>
+        <br>
+        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <ul class = "views" style = "margin-top:30px">
+          <li>Schedule</li>
+          <li>Information</li>
+          <li>Alerts</li>
+      </ul>
+      <h3 class = "left" style="color:rgb(123,151,252);">Edit</h3>
+      <br>
+      <ul class = "views" style = "margin-top:30px">
+        <li>Access Period Information</li>
+    </ul>
       </div>
       <div class="sub_feature">
         <br><br>
-        <h2>Student View</h2>
-        <p>Lorem Ipsum</p>
+        <h2>Parent View</h2>
+        <p>Parents can view information pertaining to their students.</p>
+        <br>
+        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <ul class = "views" style = "margin-top:30px">
+          <li>Student's Schedule</li>
+          <li>Attendance History</li>
+          <li>Announcements</li>
+          <li>Access Period Information</li>
+      </ul>
       </div>
       <div class="sub_feature">
          <br><br>
-        <h2>Student View</h2>
-        <p>Lorem Ipsum</p>
+        <h2>Teacher View</h2>
+        <p>Teachers can view student data and submit information.</p>
+        <br>
+        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <ul class = "views" style = "margin-top:30px">
+          <li>Student Schedules</li>
+          <li>Attendance History</li>
+          <li>Teacher Announcements</li>
+          <li>Access Period Rosters</li>
+      </ul>
+      <h3 class = "left" style="color:rgb(123,151,252);">Create</h3>
+      <br>
+      <ul class = "views" style = "margin-top:30px">
+        <li>Attendance Reports</li>
+        <li>Announcements for Classes</li>
+        <li>Virtual Passes for Students</li>
+        <li>Polls for their Students</li>
+        <li>Rules and Limits for Access Period</li>
+    </ul>
       </div>
       <div class="sub_feature">
         <br><br>
-        <h2>Student View</h2>
-        <p>Lorem Ipsum</p>
-      </div>
-      <div class="sub_feature">
-        <br><br>
-        <h2>Student View</h2>
-        <p>Lorem Ipsum</p>
-      </div>
-      <div class="sub_feature">
-        <br><br>
-        <h2>Student View</h2>
-        <p>Lorem Ipsum</p>
+        <h2>Administration View</h2>
+        <p>Admin can view and submit student and teacher data.</p>
+        <br>
+        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <ul class = "views" style = "margin-top:30px">
+          <li>Student Schedules</li>
+          <li>Attendance History</li>
+          <li>Teacher Announcements</li>
+          <li>Access Period Rosters</li>
+      </ul>
+      <h3 class = "left" style="color:rgb(123,151,252);">Create</h3>
+      <br>
+      <ul class = "views" style = "margin-top:30px">
+        <li>Attendance Reports</li>
+        <li>School-wide Announcements</li>
+        <li>Virtual Passes for all Students</li>
+        <li>Polls for Students, Parents, and Teachers</li>
+        <li>Rules and Limits for all Access Period</li>
+    </ul>
       </div>
     </div>
 
   </section>
-
+  <section id="landing_intro">
+    <div class="sub_div">
+      <div class="feature">
+        <h2>What We Offer</h2>
+        <p>We offer a seamless experience for students, parents, administration, and teachers. Our application serves as a hub of communication & interaction, an extension of the physical Presence devices, all at a fraction of the cost. For information regarding the cost of a Presence system, visit our “Inquiries” page.</p>
+      </div>
+      <br><br><br><br>
+      <div class="feature">
+        <h2>What Competitors Offer</h2>
+        <p>Competitors offer an array of features that are limited to using specific applications only.</p>
+      </div>
+    </div>
+    <div class = "right">
+        <table style="width:80%">
+      <tr>
+        <th></th>
+        <th>Presence</th>
+        <th>Others</th>
+      </tr>
+      <tr class = "blue-row">
+        <td>Features</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Automated Attendance</td>
+        <td align = "center"><span class="dot"></span></td>
+        <td></td>
+      </tr>
+      <tr class = "gray-row">
+        <td>Announcements</td>
+        <td><span class="dot"></span></td>
+        <td><span class="circle"></span></td>
+      </tr>
+      <tr>
+        <td>Polls</td>
+        <td><span class="dot"></span></td>
+        <td><span class="circle"></span></td>
+      </tr>
+      <tr class = "gray-row">
+        <td>Emergency</td>
+        <td><span class="dot"></span></td>
+        <td></td>
+      </tr>
+      <tr class = "blue-row">
+        <td>Dashboard</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Admin</td>
+        <td><span class="dot"></span></td>
+        <td><span class="dot"></span></td>
+      </tr>
+      <tr class = "gray-row">
+        <td>Teacher</td>
+        <td><span class="dot"></span></td>
+        <td><span class="circle"></span></td>
+      </tr>
+      <tr>
+        <td>Student</td>
+        <td><span class="dot"></span></td>
+        <td><span class="dot"></span></td>
+      </tr>
+      <tr class = "gray-row">
+        <td>Parent</td>
+        <td><span class="dot"></span></td>
+        <td><span class="dot"></span></td>
+      </tr>
+    </table>
+    </div>
+  </section>
   <script>
     function seeMore() {
       $('html, body').animate({ scrollTop: $("#about").offset().top - 50}, 1000);
