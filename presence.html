@@ -112,9 +112,27 @@
          width: 10%;
       }
 
+      .cen {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+      }
+
       .right {
           float: right;
           width: 50%;
+      }
+
+      .right-c {
+          float: right;
+          width: 50%;
+      }
+
+
+      .left-c {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
       }
 
       .left {
@@ -141,27 +159,46 @@
           margin-top: 15px
       }
 
+      @media only screen and (max-width:1100px) {
+          .right-c {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width:80%;
+          }
+      }
+
+      @media only screen and (max-width:1100px) and (min-width:768px) {
+          .left-c {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+          }
+      }
+
+
       @media only screen and (min-width:768px) {
           .pg {
           color: #222222;
           font-weight: 300;
-          width: 80%;
+          width: 100%;
           line-height: 30px;
-          font-size: 20px;
-          margin-bottom: 20px;
-          line-height: 28px;
+          font-size: 18px;
+          margin-bottom: 10px;
+          line-height: 24px;
+      }
+        .gn {
+        	display: block;
         }
-         .gn {
-	            display: block;
-            }
 
-            .sb {
-                font-size : 20px;
-            }
+        .sb {
+                  font-size : 18px;
+              }
 
-            .smaller {
-                font-size: 15px;
-            }
+        .smaller {
+                  font-size: 15px;
+              }
+
       }
 
       .sub_feature br {
@@ -203,7 +240,7 @@
       display: inline-block;
     }
 
-    .circle {
+    .circ {
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%;
@@ -273,7 +310,7 @@
         <div class="circle c6 blue"></div>
         <div class="circle c7 yellow"></div>
 
-        <img src="img/Layer_17.png" alt="Nize Custom Educational Management Solutions">
+        <img id = "landing-image" src="img/Layer_17.png" alt="Nize Custom Educational Management Solutions">
       </section>
       <a id="see_more" onclick="seeMore()"><i class="fa fa-chevron-down"></i></a>
       <svg id="first-wavy-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 320">
@@ -297,17 +334,17 @@
       <div id="main_sec_wrapper">
         <div id="main_sec1" class="main_sec" style="opacity: 0;">
           <h2>Pass System</h2>
-          <h3>Create a pass to admit or excuse students from a class at a certain time. The pass pops up on the dashboard with the student's ID, and the student scans out of class with their ID or QR code.</h3>
+          <h3 class = "demo-text">Create a pass to admit or excuse students from a class at a certain time. The pass pops up on the dashboard with the student's ID, and the student scans out of class with their ID or QR code.</h3>
           <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec2" class="main_sec" style="opacity: 0;">
             <h2>Sign In/Out</h2>
-            <h3>If a student wants to sign out of class, he/she can ask the teacher and simply tap out. The student's status is updated on the teacher dashboard and mobile app, and the teacher can view information such as duration and trends.</h3>
+            <h3 class = "demo-text">If a student wants to sign out of class, he/she can ask the teacher and simply tap out. The student's status is updated on the teacher dashboard and mobile app, and the teacher can view information such as duration and trends.</h3>
             <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec3" class="main_sec" style="opacity: 0;">
             <h2>Demo 3</h2>
-            <h3>Coming Soon!</h3>
+            <h3 class = "demo-text">Coming Soon!</h3>
             <!-- <a class="more">Launch Demo</a> -->
         </div>
       </div>
@@ -326,16 +363,16 @@
         <h2>Student View</h2>
         <p style = "margin-bottom=30px;">Students can view information posted by teachers and admin.</p>
         <br>
-        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
         <ul class = "views" style = "margin-top:30px">
-          <li>Schedule</li>
-          <li>Information</li>
-          <li>Alerts</li>
+          <li><span class = "view-list">Schedule</span></li>
+          <li><span class = "view-list">Information</span></li>
+          <li><span class = "view-list">Alerts</span></li>
       </ul>
-      <h3 class = "left" style="color:rgb(123,151,252);">Edit</h3>
+      <h3 class = "left-c" style="color:rgb(123,151,252);">Edit</h3>
       <br>
       <ul class = "views" style = "margin-top:30px">
-        <li>Access Period Information</li>
+        <li><span class = "view-list">Access Period Information</span></li>
     </ul>
       </div>
       <div class="sub_feature">
@@ -343,12 +380,12 @@
         <h2>Parent View</h2>
         <p>Parents can view information pertaining to their students.</p>
         <br>
-        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
         <ul class = "views" style = "margin-top:30px">
-          <li>Student's Schedule</li>
-          <li>Attendance History</li>
-          <li>Announcements</li>
-          <li>Access Period Information</li>
+          <li><span class = "view-list">Student's Schedule</span></li>
+          <li><span class = "view-list">Attendance History</span></li>
+          <li><span class = "view-list">Announcements</span></li>
+          <li><span class = "view-list">Access Period Information</span></li>
       </ul>
       </div>
       <div class="sub_feature">
@@ -356,21 +393,21 @@
         <h2>Teacher View</h2>
         <p>Teachers can view student data and submit information.</p>
         <br>
-        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
         <ul class = "views" style = "margin-top:30px">
-          <li>Student Schedules</li>
-          <li>Attendance History</li>
-          <li>Teacher Announcements</li>
-          <li>Access Period Rosters</li>
+          <li><span class = "view-list">Student Schedules</span></li>
+          <li><span class = "view-list">Attendance History</span></li>
+          <li><span class = "view-list">Teacher Announcements</span></li>
+          <li><span class = "view-list">Access Period Rosters</span></li>
       </ul>
-      <h3 class = "left" style="color:rgb(123,151,252);">Create</h3>
+      <h3 class = "left-c" style="color:rgb(123,151,252);">Create</h3>
       <br>
       <ul class = "views" style = "margin-top:30px">
-        <li>Attendance Reports</li>
-        <li>Announcements for Classes</li>
-        <li>Virtual Passes for Students</li>
-        <li>Polls for their Students</li>
-        <li>Rules and Limits for Access Period</li>
+        <li><span class = "view-list">Attendance Reports</span></li>
+        <li><span class = "view-list">Announcements for Classes</span></li>
+        <li><span class = "view-list">Virtual Passes for Students</span></li>
+        <li><span class = "view-list">Polls for their Students</span></li>
+        <li><span class = "view-list">Rules for Access Period</span></li>
     </ul>
       </div>
       <div class="sub_feature">
@@ -378,21 +415,21 @@
         <h2>Administration View</h2>
         <p>Admin can view and submit student and teacher data.</p>
         <br>
-        <h3 class="left" style="color:rgb(123,151,252);">View</h3>
+        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
         <ul class = "views" style = "margin-top:30px">
-          <li>Student Schedules</li>
-          <li>Attendance History</li>
-          <li>Teacher Announcements</li>
-          <li>Access Period Rosters</li>
+          <li><span class = "view-list">Student Schedules</span></li>
+          <li><span class = "view-list">Attendance History</span></li>
+          <li><span class = "view-list">Teacher Announcements</span></li>
+          <li><span class = "view-list">Access Period Rosters</span></li>
       </ul>
-      <h3 class = "left" style="color:rgb(123,151,252);">Create</h3>
+      <h3 class = "left-c" style="color:rgb(123,151,252);">Create</h3>
       <br>
       <ul class = "views" style = "margin-top:30px">
-        <li>Attendance Reports</li>
-        <li>School-wide Announcements</li>
-        <li>Virtual Passes for all Students</li>
-        <li>Polls for Students, Parents, and Teachers</li>
-        <li>Rules and Limits for all Access Period</li>
+        <li><span class = "view-list">Attendance Reports</span></li>
+        <li><span class = "view-list">School-wide Announcements</span></li>
+        <li><span class = "view-list">Virtual Passes for all Students</span></li>
+        <li><span class = "view-list">School-wide Polls</span></li>
+        <li><span class = "view-list">Rules for all Access Periods</span></li>
     </ul>
       </div>
     </div>
@@ -410,7 +447,7 @@
         <p>Competitors offer an array of features that are limited to using specific applications only.</p>
       </div>
     </div>
-    <div class = "right">
+    <div class = "right-c">
         <table style="width:80%">
       <tr>
         <th></th>
@@ -430,12 +467,12 @@
       <tr class = "gray-row">
         <td>Announcements</td>
         <td><span class="dot"></span></td>
-        <td><span class="circle"></span></td>
+        <td><span class="circ"></span></td>
       </tr>
       <tr>
         <td>Polls</td>
         <td><span class="dot"></span></td>
-        <td><span class="circle"></span></td>
+        <td><span class="circ"></span></td>
       </tr>
       <tr class = "gray-row">
         <td>Emergency</td>
@@ -455,7 +492,7 @@
       <tr class = "gray-row">
         <td>Teacher</td>
         <td><span class="dot"></span></td>
-        <td><span class="circle"></span></td>
+        <td><span class="circ"></span></td>
       </tr>
       <tr>
         <td>Student</td>
