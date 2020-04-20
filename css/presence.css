@@ -1147,7 +1147,7 @@ ol li::before {
       /*margin-left: 8em;*/
       /*text-indent:10px*/
       color: rgb(123,151,252);
-      margin-left: 47.5%;
+      margin-left: 5%;
     }
 
     .view-list {
@@ -1155,7 +1155,6 @@ ol li::before {
         position:relative;
         left:10px;
     }
-
 
 }
 
@@ -1167,7 +1166,7 @@ ol li::before {
       /*margin-left: 8em;*/
       /*text-indent:10px*/
       color: rgb(123,151,252);
-      margin-left: 40%;
+      margin-left: 0%;
     }
 
     .view-list {
@@ -1175,9 +1174,9 @@ ol li::before {
         position:relative;
         left:10px;
     }
-
-
 }
+
+
 
 @media only screen and (max-width:600px)  {
     ul li::before {
@@ -1412,11 +1411,11 @@ ol li::before {
   }
 
   #features .sub_feature {
-    width: 95%;
-    height: 650px;
+    width: 40%;
+    height: 850px;
     margin-bottom: 30px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   #landing_intro h1 {
@@ -1472,7 +1471,7 @@ ol li::before {
     text-align: center;
     margin-top: -2px;
     margin-bottom: 60px;
-    padding-bottom: 2400px;
+    padding-bottom: 1350px;
   }
 
   #features {
@@ -1484,6 +1483,35 @@ ol li::before {
   }
 
 }
+
+@media only screen and (max-width:768px) {
+    #features .sub_feature {
+      width: 75%;
+      height: 700px;
+      margin-bottom: 30px;
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+    }
+
+    #features {
+      background-color: #fbfbfb;
+      text-align: center;
+      margin-top: -2px;
+      margin-bottom: 60px;
+      padding-bottom: 2600px;
+    }
+
+    ul li::before {
+      content: '\f058';
+      font-family: 'FontAwesome';
+      /*float: left;*/
+      /*margin-left: 8em;*/
+      /*text-indent:10px*/
+      color: rgb(123,151,252);
+      margin-left: 5%;
+    }
+}
+
 @media only screen and (min-width:768px) {
 
 .main_sec h3 {
