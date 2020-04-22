@@ -1025,7 +1025,7 @@ ol li::before {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 
 #features h1 {
@@ -1041,17 +1041,18 @@ ol li::before {
 #sub_feature_container {
   width:95%;
   margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-right:2.5%;
+  margin-top: 50px;
 }
 
 #features .sub_feature {
-  width: 17%;
+  width: 21%;
   margin-top: 30px;
   background-color: white;
   margin-bottom: 50px;
-  margin-left: 3.8%;
-  margin-right: 3.8%;
-  height: 850px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 650px;
   color: #222222;
   font-weight: 100;
   display: inline-block;
