@@ -589,7 +589,7 @@ ul li {
   text-align: initial;
 }
 
-ul li::before {
+.view-list::before {
   content: '\f058';
   font-family: 'FontAwesome';
   float: left;
@@ -1142,8 +1142,8 @@ ol li::before {
 
 @media only screen and (max-width:1100px)  {
     ul li::before {
-      content: '\f058';
-      font-family: 'FontAwesome';
+      /*content: '\f058';
+      font-family: 'FontAwesome';*/
       /*float: left;*/
       /*margin-left: 8em;*/
       /*text-indent:10px*/
@@ -1157,23 +1157,23 @@ ol li::before {
         left:10px;
     }
 
+    .view-list-title {
+        font-size: 14px;
+        position:relative;
+        left:10px;
+    }
+
 }
 
 @media only screen and (max-width:768px)  {
     ul li::before {
-      content: '\f058';
-      font-family: 'FontAwesome';
+      /*content: '\f058';
+      font-family: 'FontAwesome';*/
       /*float: left;*/
       /*margin-left: 8em;*/
       /*text-indent:10px*/
       color: rgb(123,151,252);
       margin-left: 0%;
-    }
-
-    .view-list {
-        font-size: 14px;
-        position:relative;
-        left:10px;
     }
 }
 
@@ -1181,8 +1181,8 @@ ol li::before {
 
 @media only screen and (max-width:600px)  {
     ul li::before {
-      content: '\f058';
-      font-family: 'FontAwesome';
+      /*content: '\f058';
+      font-family: 'FontAwesome';*/
       color: rgb(123,151,252);
       margin-left: 10%;
     }
@@ -1503,8 +1503,8 @@ ol li::before {
     }
 
     ul li::before {
-      content: '\f058';
-      font-family: 'FontAwesome';
+      /*content: '\f058';
+      font-family: 'FontAwesome';*/
       /*float: left;*/
       /*margin-left: 8em;*/
       /*text-indent:10px*/

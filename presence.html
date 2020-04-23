@@ -211,13 +211,17 @@
           margin: 5px 0;
     }
 
+
     table {
       font-family: "GT America";
       border-collapse:separate;
       border:solid rgb(244,244,244) 5px;
       border-radius:20px;
       -moz-border-radius:20px;
+      width:80%;
     }
+
+
 
     td, th {
       /*border: 3px solid #dddddd;*/
@@ -238,21 +242,23 @@
     }
 
     .dot {
-      height: 25px;
-      width: 25px;
-      background-color: rgb(123,151,252);
-      border-radius: 50%;
-      display: inline-block;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      color:rgb(123,151,252);
     }
 
     .circ {
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%;
-      border-radius: 50%;
-      border: solid 6px rgb(123,151,252);
-      width: 15px;
-      height: 15px;
-      display:inline-block;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color:rgb(123,151,252);
+    }
+    .list-container {
+        float:left;
+        clear:none;
+    }
+
+    .list-title {
+        color: rgb(123,151,220);
     }
 
   </style>
@@ -369,16 +375,14 @@
         <br><br>
         <h2>Student View</h2>
         <p style = "margin-bottom=30px;">Students can view information posted by teachers and admin.</p>
-        <br>
-        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
-        <ul class = "views" style = "margin-top:40px">
+        <ul class = "views" style = "margin-top:20px">
+          <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Schedule</span></li>
           <li><span class = "view-list">Information</span></li>
           <li><span class = "view-list">Alerts</span></li>
       </ul>
-      <h3 class = "left-c" style="color:rgb(123,151,252);">Edit</h3>
-      <br>
       <ul class = "views" style = "margin-top:30px">
+        <li class = "list-title"><span class = "view-list-title">Edit</span></li>
         <li><span class = "view-list">Access Period Information</span></li>
     </ul>
       </div>
@@ -387,8 +391,8 @@
         <h2>Parent View</h2>
         <p>Parents can view information pertaining to their students.</p>
         <br>
-        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
-        <ul class = "views" style = "margin-top:40px">
+        <ul class = "views" style = "margin-top:20px">
+          <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Student's Schedule</span></li>
           <li><span class = "view-list">Attendance History</span></li>
           <li><span class = "view-list">Announcements</span></li>
@@ -399,17 +403,15 @@
          <br><br>
         <h2>Teacher View</h2>
         <p>Teachers can view student data and submit information.</p>
-        <br>
-        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
-        <ul class = "views" style = "margin-top:40px">
+        <ul class = "views" style = "margin-top:20px">
+          <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Student Schedules</span></li>
           <li><span class = "view-list">Attendance History</span></li>
           <li><span class = "view-list">Teacher Announcements</span></li>
           <li><span class = "view-list">Access Period Rosters</span></li>
       </ul>
-      <h3 class = "left-c" style="color:rgb(123,151,252);">Create</h3>
-      <br>
       <ul class = "views" style = "margin-top:30px">
+        <li class = "list-title"><span class = "view-list-title">Create</span></li>
         <li><span class = "view-list">Attendance Reports</span></li>
         <li><span class = "view-list">Announcements for Classes</span></li>
         <li><span class = "view-list">Virtual Passes for Students</span></li>
@@ -421,17 +423,15 @@
         <br><br>
         <h2>Administration View</h2>
         <p>Admin can view and submit student and teacher data.</p>
-        <br>
-        <h3 class="left-c" style="color:rgb(123,151,252);">View</h3>
-        <ul class = "views" style = "margin-top:40px">
+        <ul class = "views" style = "margin-top:20px">
+          <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Student Schedules</span></li>
           <li><span class = "view-list">Attendance History</span></li>
           <li><span class = "view-list">Teacher Announcements</span></li>
           <li><span class = "view-list">Access Period Rosters</span></li>
       </ul>
-      <h3 class = "left-c" style="color:rgb(123,151,252);">Create</h3>
-      <br>
       <ul class = "views" style = "margin-top:30px">
+        <li class = "list-title"><span class = "view-list-title">Create</span></li>
         <li><span class = "view-list">Attendance Reports</span></li>
         <li><span class = "view-list">School-wide Announcements</span></li>
         <li><span class = "view-list">Virtual Passes for all Students</span></li>
@@ -446,7 +446,7 @@
     <div class="sub_div">
       <div class="feature">
         <h2>What We Offer</h2>
-        <p>We offer a seamless experience for students, parents, administration, and teachers. Our application serves as a hub of communication & interaction, an extension of the physical Presence devices, all at a fraction of the cost. For information regarding the cost of a Presence system, visit our “Inquiries” page.</p>
+        <p>We offer a seamless experience for students, parents, administration, and teachers. Our application serves as a hub of communication & interaction, an extension of the physical Presence devices, all at a fraction of the cost. For information regarding the cost of a Presence system, visit our “Inquire” page.</p>
       </div>
       <br><br><br><br>
       <div class="feature">
@@ -455,7 +455,7 @@
       </div>
     </div>
     <div class = "right-c">
-        <table style="width:80%">
+        <table>
       <tr>
         <th></th>
         <th>Presence</th>
@@ -468,22 +468,22 @@
       </tr>
       <tr>
         <td>Automated Attendance</td>
-        <td align = "center"><span class="dot"></span></td>
+        <td align = "center"><span class="dot"><i class="fa fa-check-circle"></i></span></td>
         <td></td>
       </tr>
       <tr class = "gray-row">
         <td>Announcements</td>
-        <td><span class="dot"></span></td>
-        <td><span class="circ"></span></td>
+        <td><span class = "dot"><i class="fa fa-check-circle"></i></span></td>
+        <td><span class="circ"><i class="fa fa-check"></i></span></td>
       </tr>
       <tr>
         <td>Polls</td>
-        <td><span class="dot"></span></td>
-        <td><span class="circ"></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
+        <td><span class="circ"><i class="fa fa-check"></i></span></td>
       </tr>
       <tr class = "gray-row">
         <td>Emergency</td>
-        <td><span class="dot"></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
         <td></td>
       </tr>
       <tr class = "blue-row">
@@ -493,23 +493,23 @@
       </tr>
       <tr>
         <td>Admin</td>
-        <td><span class="dot"></span></td>
-        <td><span class="dot"></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
       </tr>
       <tr class = "gray-row">
         <td>Teacher</td>
-        <td><span class="dot"></span></td>
-        <td><span class="circ"></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
+        <td><span class="circ"><i class="fa fa-check"></i></span></td>
       </tr>
       <tr>
         <td>Student</td>
-        <td><span class="dot"></span></td>
-        <td><span class="dot"></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
       </tr>
       <tr class = "gray-row">
         <td>Parent</td>
-        <td><span class="dot"></span></td>
-        <td><span class="dot"></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
+        <td><span class="dot"><i class="fa fa-check-circle"></i></span></td>
       </tr>
     </table>
     </div>
