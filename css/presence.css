@@ -537,7 +537,7 @@ footer a:hover .header_new_button {
 }
 
 #see_more {
-  bottom: 30px;
+  bottom: 10px;
   color: white;
   cursor: pointer;
   text-align: center;
