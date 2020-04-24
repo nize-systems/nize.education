@@ -1044,6 +1044,7 @@ ul {
 
 #sub_feature_container {
     width: 80%;
+    margin-left:10%;
     margin-right: 10%;
 }
 
@@ -1173,6 +1174,7 @@ ul {
 
     #about {
         margin-top: -310px;
+        height:1750px;
     }
 
     #about_content h1 {
@@ -1214,16 +1216,13 @@ ul {
 
     .main_sec {
         width: 30vw;
-        height: 350px;
+        height: 700px;
+        margin-bottom:75px;
     }
 
         .main_sec h3 {
             font-size: 20px;
         }
-
-    #main_sec3 {
-        margin-right: 0;
-    }
 
     #custom_solutions, #safety {
         margin-top: 75px;
@@ -1283,6 +1282,7 @@ ul {
 
     #after_load h2 {
         width: 80%;
+        margin-left:10%;
     }
 
     ul li::before {
@@ -1321,7 +1321,9 @@ ul {
 
     #about {
         margin-top: -400px;
-        height: 1350px;
+        height: 3000px;
+        margin-bottom:-20px;
+        padding-top:25px;
     }
 
     #about_content h1 {
@@ -1343,6 +1345,7 @@ ul {
     .main_sec {
         width: 80%;
         margin-bottom: 50px;
+        height:650px;
     }
 
     #data_analytics {
@@ -1357,15 +1360,9 @@ ul {
             margin-right: -30px;
         }
 
-    .main_sec h2 {
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .main_sec h3 {
-        font-size: 16px;
-        line-height: 25px;
-    }
+        .main_sec h4{
+            max-width:80%;
+        }
 
     .main_sec a.more {
         position: initial;
@@ -1395,18 +1392,14 @@ ul {
     }
 
     #features {
-        height: 2500px;
+        height: 3500px;
     }
-
-        #features h1 {
-            width: 80%;
-            margin-right: 0px;
-            margin-left: calc(10% - 30px);
-        }
 
         #features .sub_feature {
             width: 90%;
+            margin-right:5%;
             height: 400px;
+            margin-top:100px;
             margin-bottom: 30px;
         }
 
@@ -1452,7 +1445,4 @@ ul {
         padding-bottom: 100px;
     }
 
-    footer {
-        margin-top: 100px;
-    }
 }
