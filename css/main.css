@@ -865,7 +865,7 @@ ul li::before {
 
 .b_border1 {
   border-bottom: 8px solid #FFD579;
-  width: 40%;
+  width: 15%;
   margin-top: -5px;
   margin-left: 10%;
 }
@@ -987,8 +987,9 @@ ul li::before {
 
 #landing_intro .sub_div {
   width: 30%;
-  margin-left: 15%;
-  float: left;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 2.5%;
 }
 
 .feature {
@@ -1059,7 +1060,9 @@ ul li::before {
   transition: 0.3s;
   cursor: pointer;
   box-shadow: 0 0 8px lightgray;
+  float:left;
 }
+
 
 #features .sub_feature:hover {
   box-shadow: 0 0 30px lightgray;
