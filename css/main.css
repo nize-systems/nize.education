@@ -1027,7 +1027,7 @@ ul li::before {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 60px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 #features h1 {
@@ -1052,7 +1052,7 @@ ul li::before {
   margin-bottom: 50px;
   margin-left: 3.8%;
   margin-right: 3.8%;
-  height: 320px;
+  height: 350px;
   color: #222222;
   font-weight: 100;
   display: inline-block;
@@ -1401,4 +1401,14 @@ ul li::before {
     height: 1350px;
     padding-bottom: 100px;
   }
+}
+
+.desc-title {
+    font-size: 22px;
+    font-height: 34px;
+}
+
+.desc-text {
+    font-size: 15px;
+    font-height: 14px;
 }
