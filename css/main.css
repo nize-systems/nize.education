@@ -1061,6 +1061,7 @@ ul li::before {
   cursor: pointer;
   box-shadow: 0 0 8px lightgray;
   float:left;
+  position:relative;
 }
 
 
@@ -1075,6 +1076,10 @@ ul li::before {
   padding: 20px;
   font-size: 28px;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 30px;
 }
 
 .sub_feature h2 {
@@ -1094,23 +1099,30 @@ ul li::before {
 }
 
 .sub_feature a {
-  margin-top: 30px;
-  width: 40%;
+  position:absolute;
+  bottom:20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
   height: 40px;
+  width:40%;
   border: 1px solid lightgray;
   font-weight: 400;
   font-size: 14px;
   border-radius: 5px;
   color: #222222;
   transition: 0.3s;
-  text-align: center;
   line-height: 40px;
-  display: inline-block;
+  display:inline-block;
+
 }
+
 
 .sub_feature a:hover {
   box-shadow: 0 0 8px lightgray;
 }
+
 
 /* RESPONSIVE FOR MOBILE */
 @media (max-width: 1000px) {
