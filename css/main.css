@@ -1003,6 +1003,7 @@ ul li::before {
   font-weight: 400;
   font-size: 22px;
   display: inline;
+  margin-left: 30px;
 }
 
 .feature i {
