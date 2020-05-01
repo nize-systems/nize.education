@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'GT America Light';
+    font-family: 'GT America';
     src: url('fonts/GTAmerica-Light.woff2') format('woff2'),
         url('fonts/GTAmerica-Light.woff') format('woff');
     font-weight: 300;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'GT America Regular';
+    font-family: 'GT America';
     src: url('fonts/GTAmerica-Regular.woff2') format('woff2'),
         url('fonts/GTAmerica-Regular.woff') format('woff');
     font-weight: normal;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'GT America Bold';
+    font-family: 'GT America';
     src: url('fonts/GTAmerica-Bold.woff2') format('woff2'),
         url('fonts/GTAmerica-Bold.woff') format('woff');
     font-weight: bold;
