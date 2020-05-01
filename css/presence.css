@@ -653,7 +653,7 @@ ol li::before {
 .c4 {
   border-radius: 0px;
   top: 400px;
-  right: 150px;
+  right: 140px;
 }
 
 .c5 {
@@ -669,7 +669,7 @@ ol li::before {
 .c7 {
   border-radius: 0px;
   top: 400px;
-  right: 850px;
+  right: 900px;
 }
 
 #about_content {
@@ -1198,12 +1198,12 @@ ol li::before {
 @media (max-width: 1366px) and (min-width: 821px) {
 
   .c1 {
-    top: 540px;
+    top: 575px;
     right: 530px;
   }
 
   .c4 {
-    top: 475px;
+    top: 600px;
     right: 200px;
   }
 
@@ -1435,7 +1435,7 @@ ol li::before {
   }
 
   .feature i {
-    float: left;
+    /*float: left;*/
     margin-top: -2px;
     margin-right: 20px;
   }
@@ -1634,4 +1634,5 @@ ol li::before {
     #about {
         margin-top:400px;
     }
+
 }
