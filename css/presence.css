@@ -292,6 +292,7 @@ Not supports in Firefox and IE */
     margin-left:1.8%;
 }
 
+
 .main_sec h2 {
   text-align: center;
   width: 100%;
@@ -963,6 +964,7 @@ ol li::before {
 
 #landing_intro {
   width: 100%;
+  height:750px;
 }
 
 #landing_intro h1 {
@@ -1251,10 +1253,6 @@ ol li::before {
     font-size: 20px;
   }
 
-  #main_sec3 {
-    margin-right: 0;
-  }
-
   #custom_solutions, #safety {
     margin-top: 75px;
   }
@@ -1269,7 +1267,7 @@ ol li::before {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   nav {
     display: none;
   }
@@ -1412,7 +1410,7 @@ ol li::before {
 
   #features .sub_feature {
     width: 40%;
-    height: 850px;
+    height: 650px;
     margin-bottom: 30px;
     margin-left: 5%;
     margin-right: 5%;
@@ -1472,7 +1470,7 @@ ol li::before {
     text-align: center;
     margin-top: -2px;
     margin-bottom: 60px;
-    padding-bottom: 1350px;
+    padding-bottom: 1000px;
   }
 
   #features {
@@ -1547,16 +1545,23 @@ ol li::before {
     }
 }*/
 
-@media only screen and (min-width:1098px) {
+@media only screen and (min-width:1070px) {
     #about {
         margin-top: -75px;
         height:600px;
     }
     #first-wavy-line {
-      margin-left: -8vw;
       top: -70px;
-      position:relative;
-      z-index: -1;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    #about {
+        margin-top: 110px;
+        height:600px;
+    }
+    #first-wavy-line {
+      top: 120px;
     }
 }
 
@@ -1624,10 +1629,8 @@ ol li::before {
     }
 }
 
-@media only screen and (max-width:1690px) {
-    #see_more {
-        display:none;
-    }
+#see_more {
+    display:none;
 }
 
 @media only screen and (max-width:768px) {
@@ -1641,15 +1644,4 @@ ol li::before {
         margin-top:400px;
     }
 
-}
-
-@media only screen and (max-height:1000px) {
-    #see_more {
-      bottom: 100px;
-    }
-
-    #see_more i {
-      color:white;
-      background-color: #7A94FF;
-    }
 }
