@@ -284,6 +284,12 @@ Not supports in Firefox and IE */
   display: inline-block;
   transition: 1s;
   border-radius: 25px;
+  position:relative;
+  z-index: 1000;
+}
+
+#main_sec1 {
+    margin-left:1.8%;
 }
 
 .main_sec h2 {
@@ -537,7 +543,7 @@ footer a:hover .header_new_button {
 }
 
 #see_more {
-  bottom: 10px;
+  bottom: 100px;
   color: white;
   cursor: pointer;
   text-align: center;
@@ -675,7 +681,7 @@ ol li::before {
 #about_content {
   position: absolute;
   margin-top: 40px;
-  color: white;
+  color: #fbfbfb;
   display: inline-block;
   height: 100%;
   width: 100vw;
@@ -684,7 +690,7 @@ ol li::before {
 #about_content h1 {
   text-align: center;
   width: 40%;
-  margin-left: 30%;
+  margin-left: 30.5%;
   line-height: 40px;
   display: inline-block;
   font-weight: 300;
@@ -697,7 +703,7 @@ ol li::before {
   top: -130px;
   margin-right: -100px;
   position:relative;
-  z-index: -1;
+  z-index: 900;
 }
 
 .circle2 {
@@ -968,14 +974,6 @@ ol li::before {
   font-size: 38px;
 }
 
-.sub_bar {
-  width: 10%;
-  margin-bottom: 20px;
-  height: 5px;
-  background-color: #FFD579;
-  margin-left: 45%;
-}
-
 .sub_div {
   margin-top: 15px;
 }
@@ -1023,9 +1021,9 @@ ol li::before {
 #features {
   background-color: #fbfbfb;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -300px;
   margin-bottom: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 70px;
 }
 
 #features h1 {
@@ -1047,12 +1045,12 @@ ol li::before {
 
 #features .sub_feature {
   width: 21%;
-  margin-top: 30px;
+  margin-top: 150px;
   background-color: white;
   margin-bottom: 50px;
   margin-left: 2%;
   margin-right: 2%;
-  height: 680px;
+  height: 690px;
   color: #222222;
   font-weight: 100;
   display: inline-block;
@@ -1348,6 +1346,7 @@ ol li::before {
   #about_content {
     height: 600px;
     display: inline-block;
+    color:#fbfbfb;
   }
 
   #main_sec_wrapper {
@@ -1417,6 +1416,7 @@ ol li::before {
     margin-bottom: 30px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top:0px;
   }
 
   #landing_intro h1 {
@@ -1613,14 +1613,20 @@ ol li::before {
 
 @media only screen and (min-width:1600px) {
     #about {
-        margin-top: -470px;
+        margin-top: -455px;
         height:600px;
     }
     #first-wavy-line {
       margin-left: -8vw;
-      top: -390px;
+      top: -450px;
       position:relative;
       z-index: -1;
+    }
+}
+
+@media only screen and (max-width:1690px) {
+    #see_more {
+        display:none;
     }
 }
 
@@ -1635,4 +1641,15 @@ ol li::before {
         margin-top:400px;
     }
 
+}
+
+@media only screen and (max-height:1000px) {
+    #see_more {
+      bottom: 100px;
+    }
+
+    #see_more i {
+      color:white;
+      background-color: #7A94FF;
+    }
 }
