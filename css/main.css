@@ -1,7 +1,6 @@
-html, body{
+html {
   font-family: "GT America";
   overflow-x: hidden;
-  width: 100%;
 }
 
 header {
@@ -139,7 +138,7 @@ header nav > a {
 
 #first-wavy-line {
   margin-left: -8vw;
-  top: -400px;
+  top: -350px;
   position:relative;
   z-index: -1;
 }
@@ -516,7 +515,7 @@ footer a:hover .header_new_button {
   width: 220px;
   margin-left: 3%;
   height: 50px;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-right: 100px;
   border-radius: 10px;
   background-color: #7A94FF;
@@ -538,7 +537,7 @@ footer a:hover .header_new_button {
 }
 
 #see_more {
-  bottom: 30px;
+  bottom: 115px;
   color: white;
   cursor: pointer;
   text-align: center;
@@ -581,6 +580,28 @@ ul {
   list-style-type: none;
 }
 
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+  color: #222222;
+  font-weight: 300;
+  width: 80%;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ol li::before {
+    content: '\f058';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: rgb(123,151,252);
+}
+
+
 ul li {
   color: #222222;
   font-weight: 300;
@@ -604,7 +625,7 @@ ul li::before {
 
 #about {
   background-color: #7A94FF;
-  margin-top: -470px;
+  margin-top: -360px;
   height: 60vh;
   display: inline-block;
 }
@@ -637,7 +658,7 @@ ul li::before {
 .c4 {
   border-radius: 0px;
   top: 400px;
-  right: 150px;
+  right: 140px;
 }
 
 .c5 {
@@ -653,7 +674,7 @@ ul li::before {
 .c7 {
   border-radius: 0px;
   top: 400px;
-  right: 850px;
+  right: 900px;
 }
 
 #about_content {
@@ -818,9 +839,9 @@ ul li::before {
   margin-left: 0%;
 }
 
-#custom_solutions_cover_img {
-  width: 70%;
-  margin-left: 10%;
+#security_graphic {
+  width: 100%;
+  margin-left: 0%;
 }
 
 #safety_cover_image {
@@ -844,7 +865,7 @@ ul li::before {
 
 .b_border1 {
   border-bottom: 8px solid #FFD579;
-  width: 40%;
+  width: 15%;
   margin-top: -5px;
   margin-left: 10%;
 }
@@ -981,11 +1002,10 @@ ul li::before {
   font-weight: 400;
   font-size: 22px;
   display: inline;
+  margin-left: 30px;
 }
 
 .feature i {
-  margin-right: 30px;
-  margin-top: 10px;
   font-size: 14px;
   color: white;
   background-color: #7A94FF;
@@ -1005,7 +1025,7 @@ ul li::before {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 60px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 #features h1 {
@@ -1030,7 +1050,7 @@ ul li::before {
   margin-bottom: 50px;
   margin-left: 3.8%;
   margin-right: 3.8%;
-  height: 320px;
+  height: 350px;
   color: #222222;
   font-weight: 100;
   display: inline-block;
@@ -1038,7 +1058,10 @@ ul li::before {
   transition: 0.3s;
   cursor: pointer;
   box-shadow: 0 0 8px lightgray;
+  float:left;
+  position:relative;
 }
+
 
 #features .sub_feature:hover {
   box-shadow: 0 0 30px lightgray;
@@ -1051,6 +1074,8 @@ ul li::before {
   padding: 20px;
   font-size: 28px;
   border-radius: 50%;
+  height:32px;
+  width:32px;
 }
 
 .sub_feature h2 {
@@ -1064,29 +1089,36 @@ ul li::before {
 .sub_feature p {
   width: 80%;
   margin-left: 10%;
-  line-height: 18px;
-  font-size: 14px;
+  line-height: 20px;
+  font-size: 16px;
   margin-top: 20px;
 }
 
 .sub_feature a {
-  margin-top: 30px;
-  width: 40%;
+  position:absolute;
+  bottom:20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
   height: 40px;
+  width:40%;
   border: 1px solid lightgray;
   font-weight: 400;
   font-size: 14px;
   border-radius: 5px;
   color: #222222;
   transition: 0.3s;
-  text-align: center;
   line-height: 40px;
-  display: inline-block;
+  display:inline-block;
+
 }
+
 
 .sub_feature a:hover {
   box-shadow: 0 0 8px lightgray;
 }
+
 
 /* RESPONSIVE FOR MOBILE */
 @media (max-width: 1000px) {
@@ -1113,26 +1145,20 @@ ul li::before {
     width: 100%;
     margin-left: 0px;
   }
-  #see_more{
-      bottom:150px;
-  }
-  #after_load #right img{
-      margin-left:0px;
-  }
 }
 
-@media (max-width: 1540px) and (min-width: 930px) {
+@media (max-width: 1366px) and (min-width: 821px) {
 
   .c1 {
-    top: 540px;
-    right: 530px;
+     top: 575px;
+     right: 530px;
   }
 
   .c4 {
-    top: 475px;
+    top: 600px;
     right: 200px;
   }
-  
+
   .c6 {
     top: 100px;
   }
@@ -1142,39 +1168,23 @@ ul li::before {
   }
 
   #first-wavy-line {
-    top: -300px;
+    top: -50px;
   }
 
   #about {
-    margin-top: -310px;
-  } 
-  
+    margin-top: -55px;
+  }
+
   #about_content h1 {
-    width:80%;
-    text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    width: 50%;
+    margin-left: 25%;
     line-height: 50px;
     font-size: 40px;
   }
 
-  #features .sub_feature{
-      height:400px;
-  }
-
-  #see_more2 i {
-    margin-bottom: 400px;
-  }
-
-  #after_load section a{
-      margin-top: 0px;
-      margin-bottom: 0px;
-  }
-
-  #data_div_left{
-      margin-left:0px;
-      width:40%;
-  }
+  /* #about_after_bottom {
+    margin-right: -100px;
+  } */
 
   .d4 {
     margin-top: 640px;
@@ -1203,30 +1213,27 @@ ul li::before {
     margin-top: 75px;
   }
 
-  #features {
-    height: 1100px;
-    padding-bottom: -300px;
+  #features .sub_feature {
+      width:40%;
+      height:385px;
   }
 
-  #landing_intro {
-      margin:0px;
-      padding:0px;
+  #features {
+      padding-bottom: 800px;
   }
 
   #landing_intro .sub_div {
-    width: 46%;
-    margin-left: 19px;
+    width: 38%;
+    margin-left: 8%;
+  }
+
+  #see_more i {
+    color:white;
+    background-color: #7A94FF;
   }
 }
 
-@media (max-width: 930px) {
-
-  html, body {
-    font-family: "GT America";
-    overflow-x: hidden;
-    width: 100%;
-  }
-
+@media (max-width: 900px) {
   nav {
     display: none;
   }
@@ -1237,10 +1244,6 @@ ul li::before {
 
   #see_more, #see_more2, #see_more3 {
     display: none;
-  }
-
-  .data_div{
-      margin-right:5px;
   }
 
   .main_sec a.more {
@@ -1295,7 +1298,7 @@ ul li::before {
 
   #about {
     margin-top:-400px;
-    height: 1350px;
+    height: 950px;
   }
 
   #about_content h1 {
@@ -1324,11 +1327,7 @@ ul li::before {
   }
 
   .data_div > a {
-    margin-left:15px;
-  }
-
-  .data_div > a h3 {
-    margin-right: -30px;
+    margin-left: 30px;
   }
 
   .main_sec h2 {
@@ -1348,7 +1347,7 @@ ul li::before {
     margin-left: 0%;
   }
 
-  #data_analytics_cover_image, #custom_solutions_cover_img, #safety_cover_image {
+  #data_analytics_cover_image, #custom_solutions_cover_img, #safety_cover_image, #security_graphic {
     display: none;
   }
 
@@ -1368,10 +1367,6 @@ ul li::before {
     margin-top: 50px;
   }
 
-  #features{
-      height:2500px;
-  }
-
   #features h1 {
     width: 80%;
     margin-right: 0px;
@@ -1380,7 +1375,7 @@ ul li::before {
 
   #features .sub_feature {
     width: 90%;
-    height: 400px;
+    height: 340px;
     margin-bottom: 30px;
   }
 
@@ -1414,10 +1409,9 @@ ul li::before {
   }
 
   .feature {
-    width: 90%;
+    width: 80%;
     display: inline-block;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -10px;
     padding-bottom: 20px;
   }
 
@@ -1425,9 +1419,47 @@ ul li::before {
     height: 1350px;
     padding-bottom: 100px;
   }
+}
 
-  footer {
-      margin-top:100px;
-  }
+.desc-title {
+    font-size: 22px;
+    font-height: 34px;
+}
 
+.desc-text {
+    font-size: 15px;
+    font-height: 14px;
+}
+
+@media only screen and (max-width:900px) {
+    #features {
+        padding-bottom: 2100px;
+    }
+
+    .feature h2 {
+      margin-left: 0px;
+    }
+}
+
+
+
+@media (max-width:1650px) and (min-width:1366px) {
+
+    #first-wavy-line {
+      top: -240px;
+    }
+
+    #about {
+      margin-top: -250px;
+      height: 60vh;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    #cover-image {
+        display:none;
+    }
+    ul li {
+        width:100%;
+    }
 }
