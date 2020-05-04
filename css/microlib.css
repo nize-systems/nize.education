@@ -1471,7 +1471,7 @@ ul li::before {
 
 @media only screen and (min-width:820px) {
     #about {
-        margin-top: -50px;
+        margin-top: -250px;
         height:600px;
     }
     #first-wavy-line {
