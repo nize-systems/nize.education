@@ -138,7 +138,7 @@ header nav > a {
 
 #first-wavy-line {
   margin-left: -8vw;
-  top: -400px;
+  top: -390px;
   position:relative;
   z-index: -1;
 }
@@ -1448,7 +1448,7 @@ ul li::before {
 }
 
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1250px) {
     #about {
         margin-top: -400px;
         height:600px;
