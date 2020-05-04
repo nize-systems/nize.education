@@ -1353,7 +1353,7 @@ ol li::before {
   }
 
   #about {
-    margin-top:300px;
+    margin-top: 200px;
     height: 1350px;
   }
 
@@ -1503,6 +1503,14 @@ ol li::before {
       padding-top: 100px;
   }
 
+  .view-list {
+      font-size:14px;
+  }
+
+  .view-list-title {
+      font-size:16px;
+  }
+
 }
 
 @media only screen and (max-width:768px) {
@@ -1548,6 +1556,8 @@ ol li::before {
         font-size:16px;
     }
 }
+
+
 
 @media only screen and (min-width:768px) {
 
@@ -1655,6 +1665,12 @@ ol li::before {
 
 }
 
+@media (max-width: 821px) and (min-width: 768px) {
+    #about {
+        margin-top: -100px;
+    }
+}
+
 @media only screen and (min-width:1600px) {
     #about {
         margin-top: -455px;
@@ -1677,6 +1693,13 @@ ol li::before {
         margin-top:75px;
     }
 }
+
+@media only screen and (max-width:600px) {
+    #about {
+        margin-top:240px;
+    }
+}
+
 
 @media only screen and (max-width:500px) {
     #about {
