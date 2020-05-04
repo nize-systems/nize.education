@@ -604,6 +604,7 @@ ul li {
   color: rgb(123,151,252);
 }
 
+
 ol {
     margin-left: 20px;
 }
@@ -1145,10 +1146,13 @@ ol li::before {
       /*content: '\f058';
       font-family: 'FontAwesome';*/
       /*float: left;*/
-      /*margin-left: 8em;*/
       /*text-indent:10px*/
       color: rgb(123,151,252);
       margin-left: 5%;
+    }
+
+    .views {
+        margin-left: 2em;
     }
 
     .view-list {
@@ -1161,6 +1165,10 @@ ol li::before {
         font-size: 12px;
         position:relative;
         left:10px;
+    }
+
+    .card-subtitle {
+        font-size:10px;
     }
 
     #features .sub_feature {
@@ -1439,6 +1447,10 @@ ol li::before {
     margin-top:0px;
   }
 
+  .views {
+      margin-left: 4em;
+  }
+
   #landing_intro h1 {
     width: 80%;
     margin-left: 10%;
@@ -1509,6 +1521,10 @@ ol li::before {
 
   .view-list-title {
       font-size:16px;
+  }
+
+  .card-subtitle {
+      font-size:14px;
   }
 
 }
