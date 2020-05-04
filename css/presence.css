@@ -1152,17 +1152,25 @@ ol li::before {
     }
 
     .view-list {
-        font-size: 14px;
+        font-size: 10px;
         position:relative;
         left:10px;
     }
 
     .view-list-title {
-        font-size: 14px;
+        font-size: 12px;
         position:relative;
         left:10px;
     }
 
+    #features .sub_feature {
+      height: 750px;
+      margin-top:25%;
+    }
+
+    #features {
+      padding-bottom: 200px;
+    }
 }
 
 @media only screen and (max-width:768px)  {
@@ -1265,6 +1273,10 @@ ol li::before {
     width: 38%;
     margin-left: 8%;
   }
+}
+
+.feature {
+    margin-left: 3%;
 }
 
 @media (max-width: 900px) {
@@ -1448,7 +1460,7 @@ ol li::before {
 
 
   #landing_intro {
-    height: 1250px;
+    height: 1050px;
     padding-bottom: 100px;
   }
 
