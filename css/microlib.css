@@ -589,7 +589,6 @@ ol li {
   font-weight: 300;
   width: 80%;
   line-height: 30px;
-  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -1204,6 +1203,15 @@ ul li::before {
     width: 38%;
     margin-left: 8%;
   }
+
+  /*#right {
+      display:none;
+  }
+
+  #after_load section {
+    width: 80%;
+    float: left;
+  }*/
 }
 
 @media (max-width: 820px) {
