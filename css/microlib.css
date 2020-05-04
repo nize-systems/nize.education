@@ -491,7 +491,7 @@ footer a:hover .header_new_button {
 
 #after_load h1 {
   font-weight: 300;
-  font-size: 38px;
+  font-size: 50px;
   margin-top: 80px;
 }
 
@@ -1430,11 +1430,17 @@ ul li::before {
     top: 30px;
   }
 
+  #after_load h1 {
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 80px;
+  }
+
 }
 
 @media only screen and (max-width:900px) {
     #about {
-    margin-top:-250px;
+    margin-top:-230px;
     height: 1350px;
   }
 
@@ -1512,13 +1518,13 @@ ul li::before {
 
 @media only screen and (max-width:768px) {
     #about {
-        margin-top:-350px;
+        margin-top:-180px;
     }
 }
 
 @media only screen and (max-width:500px) {
     #about {
-        margin-top: -300px;
+        margin-top: -75px;
     }
 
 }
