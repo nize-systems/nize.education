@@ -1273,6 +1273,16 @@ ol li::before {
     width: 38%;
     margin-left: 8%;
   }
+
+  #after_load section {
+    width: 70%;
+    float: left;
+    margin-left: 2%;
+  }
+
+  #right {
+      display:none;
+  }
 }
 
 .feature {
@@ -1343,7 +1353,7 @@ ol li::before {
   }
 
   #about {
-    margin-top:-250px;
+    margin-top:300px;
     height: 1350px;
   }
 
@@ -1521,6 +1531,22 @@ ol li::before {
       color: rgb(123,151,252);
       margin-left: 5%;
     }
+
+    .view-list {
+        font-size:16px;
+    }
+
+    .view-list-title {
+        font-size:18px;
+    }
+
+    .card-title {
+        font-size:24px;
+    }
+
+    .card-subtitle{
+        font-size:16px;
+    }
 }
 
 @media only screen and (min-width:768px) {
@@ -1569,11 +1595,11 @@ ol li::before {
 
 @media only screen and (min-width:900px) {
     #about {
-        margin-top: 110px;
+        margin-top: -125px;
         height:600px;
     }
     #first-wavy-line {
-      top: 120px;
+      top: -120px;
     }
 }
 
@@ -1622,10 +1648,11 @@ ol li::before {
       }
 }
 
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:1366px) {
     #landing-image {
         display: none;
     }
+
 }
 
 @media only screen and (min-width:1600px) {
