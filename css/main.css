@@ -1447,3 +1447,21 @@ ul li::before {
         width:100%;
     }
 }
+
+@media only screen and (max-width:500px) {
+    #features .sub_feature {
+        height:400px;
+    }
+
+    #features {
+        height:1050px;
+    }
+
+    .desc-title {
+        line-height: 20px;
+    }
+
+    .desc-text {
+        line-height: 28px;
+    }
+}
