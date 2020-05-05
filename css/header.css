@@ -1,0 +1,54 @@
+html {
+  font-family: "GT America";
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  height: 55px;
+  z-index: 10000;
+  background-color: #FFF;
+  transition: 0.3s;
+}
+
+header img {
+  height: 50px;
+  float: left;
+  cursor: pointer;
+  margin-left: calc(8vw - 10px);
+  margin-top: 2.5px;
+}
+
+header p {
+  cursor: pointer;
+  float: left;
+  line-height: 50px;
+  margin-left: 15px;
+  font-family: "GT America";
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 18px;
+  color: #222222;
+}
+
+header nav {
+  margin-right: 15vw;
+  font-weight: 100;
+  float: right;
+}
+
+header nav > a {
+  transition: 0.3s;
+  cursor: pointer;
+  float: left;
+  width: 90px;
+  height: 53px;
+  margin-left: 30px;
+  margin-top: -2px;
+  text-align: center;
+  color: #222222;
+  line-height: 53px;
+  border: 2px solid transparent;
+  text-decoration:none;
+}
