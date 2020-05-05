@@ -141,7 +141,7 @@ header {
 
 #first-wavy-line {
     margin-left: -8vw;
-    top: -690px;
+    top: -815px;
     position: relative;
     z-index: -1;
 }
@@ -293,11 +293,12 @@ Not supports in Firefox and IE */
 
     .main_sec h2 {
         text-align: left;
-        width: 100%;
+        width: 90%;
         font-size: 22px;
         margin-top: 25px;
         color: #7A94FF;
         font-weight: 500;
+        margin-left: 5%;
     }
 
     .main_sec h3 {
@@ -307,6 +308,7 @@ Not supports in Firefox and IE */
         width: 90%;
         font-size:30px;
         line-height: 32px;
+        margin-left: 4.5%;
     }
 
     .main_sec h4 {
@@ -591,7 +593,7 @@ footer {
     }
 
 #after_load section {
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
@@ -628,7 +630,7 @@ ul {
 
 #about {
     background-color: #7A94FF;
-    margin-top: -700px;
+    margin-top: -820px;
     height: 100vh;
     margin-bottom:-1vh;
     display: inline-block;
@@ -982,6 +984,8 @@ ul {
     height: 2px;
     width:90%;
     background-color: #FFD579;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sub_div {
@@ -1139,8 +1143,13 @@ ul {
     }
 
     #about {
+        margin-top: -600px;
         height: 2150px;
         padding-top:25px;
+    }
+
+    #first-wavy-line {
+        top: -590px;
     }
 
     #about_content h1 {
@@ -1190,11 +1199,6 @@ ul {
         margin-top: 75px;
     }
 
-    #features {
-        height: 1100px;
-        padding-bottom: -300px;
-        margin-top:-50vh;
-    }
 
     #landing_intro {
         margin: 0px;
@@ -1354,10 +1358,6 @@ ul {
         margin-top: 50px;
     }
 
-    #features {
-        height: 2750px;
-        margin-top:-55vh;
-    }
 
 
     #landing_intro h1 {
@@ -1405,18 +1405,32 @@ ul {
 }
 
 .bottom-pg {
-    margin-top: 5%;
+    margin-top: 5.5%;
     margin-left: 2%;
     width:40%;
-    float:left
+    float:left;
+    color: #222222;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.top-pg {
+    color: #222222;
+    font-weight: 300;
+    width: 80%;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .bottom-btn {
     z-index: 10000;
     width: 220px;
-    margin-left: 3%;
+    margin-left: 0.5%;
     height: 50px;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: 100px;
     border-radius: 10px;
     background-color: #7A94FF;
@@ -1429,8 +1443,12 @@ ul {
     cursor: pointer;
     display: inline-block;
     color: white;
-    width:10%;
+}
+
+.button-stack {
     float:left;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
     .bottom-btn:hover {
@@ -1438,3 +1456,44 @@ ul {
         color: #7A94FF;
         background-color: white;
     }
+
+@media only screen and (max-width:1235px) {
+    .button-stack {
+        width:20%;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    .button-stack {
+        margin-top: 16%;
+    }
+
+    .bottom-pg {
+        margin-top:12%;
+    }
+
+    #features {
+        height:400px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .button-stack {
+        margin-top: 30%;
+    }
+
+    .bottom-pg {
+        margin-top:15%;
+    }
+
+    #features {
+        height:450px;
+    }
+
+    #about {
+        margin-top: -200px;
+    }
+
+}
