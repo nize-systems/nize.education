@@ -141,7 +141,7 @@ header {
 
 #first-wavy-line {
     margin-left: -8vw;
-    top: -815px;
+    top: -710px;
     position: relative;
     z-index: -1;
 }
@@ -267,7 +267,7 @@ Not supports in Firefox and IE */
     width: 100vw;
     position: absolute;
     text-align: center;
-    top: 20vh;
+    top: 14vh;
 }
 
 #iphone_home {
@@ -630,7 +630,7 @@ ul {
 
 #about {
     background-color: #7A94FF;
-    margin-top: -820px;
+    margin-top: -720px;
     height: 100vh;
     margin-bottom:-1vh;
     display: inline-block;
@@ -1249,7 +1249,6 @@ ul {
 
     #after_load h2 {
         width: 80%;
-        margin-left:10%;
     }
 
     ul li::before {
@@ -1406,14 +1405,15 @@ ul {
 
 .bottom-pg {
     margin-top: 5.5%;
-    margin-left: 2%;
-    width:40%;
+    margin-left: 8%;
+    width:90%;
     float:left;
     color: #222222;
     font-weight: 300;
     line-height: 30px;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 12%;
 }
 
 .top-pg {
@@ -1445,10 +1445,20 @@ ul {
     color: white;
 }
 
-.button-stack {
+.left {
+    width:50%;
     float:left;
-    margin-top: 3%;
+}
+
+.right {
+    width:50%;
+    float:right;
+}
+
+.button-stack {
+    margin-top: 7%;
     margin-left: 5%;
+    float:left;
 }
 
     .bottom-btn:hover {
@@ -1459,18 +1469,17 @@ ul {
 
 @media only screen and (max-width:1235px) {
     .button-stack {
-        width:20%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 }
 
 @media only screen and (max-width:930px) {
     .button-stack {
-        margin-top: 16%;
+        margin-top: 30%;
     }
 
     .bottom-pg {
-        margin-top:12%;
+        margin-top:30%;
     }
 
     #features {
@@ -1481,11 +1490,11 @@ ul {
 @media only screen and (max-width:500px) {
 
     .button-stack {
-        margin-top: 30%;
+        margin-top: 60%;
     }
 
     .bottom-pg {
-        margin-top:15%;
+        margin-top:30%;
     }
 
     #features {
