@@ -145,21 +145,21 @@
           font-weight: 300;
           width: 80%;
           line-height: 30px;
-          font-size: 20px;
+          font-size: 15px;
           margin-bottom: 20px;
           font-size: 20px;
           line-height: 28px;
       }
 
-      .smaller {
-          font-size: 20px;
+      #smaller {
+          font-size: 15px;
       }
 
       #list {
           margin-top: 15px
       }
 
-      @media only screen and (max-width:1100px) {
+      @media only screen and (max-width:900px) {
           .right-c {
               display: block;
               margin-left: auto;
@@ -199,11 +199,6 @@
         .sb {
                   font-size : 18px;
               }
-
-        .smaller {
-                  font-size: 15px;
-              }
-
       }
 
       .sub_feature br {
@@ -302,23 +297,23 @@
     <img id="main_splash_image" src="img/classroom2.jpg" style="display:none;">
     <div id="after_load">
       <section style="z-index: 100000">
-        <h1>Nize Presence</h1>
+        <h1>Presence</h1>
         <h2>A modern solution to education management.</h2>
         <br>
-        <p class = "pg"><strong style="font-weight: lighter;">Presence is a revolutionary system designed to optimize education management. Our system streamlines them and provides all users with increases in efficiency, security, and safety.</strong></p>
+        <p class = "pg"><strong style="font-weight: lighter;">Presence is a revolutionary system designed to optimize education management. Our system streamlines them and provides all users with increases in efficiency, security, and safety.<strong><p>
         <br><br><br><br><br><h2>Why Presence?</h2>
         <div class = "left">
         <ol style = "margin-top:20px">
-          <li><strong>Increased Instructional Time</strong><br><span class = "smaller">Bypass the hassle of manually recording and entering attendance. Presence will do it quickly and accurately.</span></li>
-          <li><strong>Real-time Updates</strong><br><span class = "smaller">Information updates during the school day, allowing staff to know what happens when it happens.</span></li>
-          <li><strong>Customizable Alerts</strong><br><span class = "smaller">Set alerts for hundreds of events to get relevant information as soon as possible.</span></li>
+          <li><strong>Increased Instructional Time</strong><br><span id = "smaller">Bypass the hassle of manually recording attendance. Presence will do it quickly and accurately.</span></li>
+          <li><strong>Real-time Updates</strong><br><span id = "smaller">Information updates during the school day, allowing staff to know what happens when it happens.</span></li>
+          <li><strong>Customizable Alerts</strong><br><span id = "smaller">Set alerts for hundreds of events to get relevant information as soon as possible.</span></li>
       </ol>
   </div>
   <div class = "right">
         <ol style = "margin-top:20px">
-            <li><strong>Accessibility</strong><br><span class = "smaller">Be it by phone, laptop, or tablet, Presence will always be on your device, ready to go.</span></li>
-            <li><strong>Security</strong><br><span class = "smaller">Our portal uses proprietary security protocals to keep your data secure and private.</span></li>
-            <li><strong>Competitive Pricing</strong><br><span class = "smaller">Pay for the features you want, configurable for all school and organization sizes</span></li>
+            <li><strong>Accessibility</strong><br><span id = "smaller">Be it by phone, laptop, or tablet, Presence will always be on your device, ready to go.</span></li>
+            <li><strong>Security</strong><br><span id = "smaller">Our portal uses proprietary security protocals to keep your data secure and private.</span></li>
+            <li><strong>Competitive Pricing</strong><br><span id = "smaller">Pay for the features you want, configurable for all school and organization sizes</span></li>
         </ol>
     </div>
       </section>
@@ -359,7 +354,7 @@
         </div>
         <div id="main_sec2" class="main_sec" style="opacity: 0;">
             <h2>Sign In/Out</h2>
-            <h3 class = "demo-text">If a student wants to sign out of class, he/she can ask the teacher and simply tap out. The student's status is updated on the teacher dashboard and mobile app, and the teacher can view information such as duration and trends.</h3>
+            <h3 class = "demo-text">If a student wants to sign out of class, he/she can ask the teacher and simply tap out. The student's status is updated on the dashboard and mobile app, and the teacher can view information such as duration and trends.</h3>
             <a class="more">Launch Demo</a>
         </div>
         <div id="main_sec3" class="main_sec" style="opacity: 0;">
@@ -374,14 +369,13 @@
   <svg id="about_after_bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#7A94FF" fill-opacity="1" d="M0,288L80,288C160,288,320,288,480,277.3C640,267,800,245,960,240C1120,235,1280,245,1360,250.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
   </svg>
-<div class="sub_bar" style="background-color: #7A94FF"></div>
   <section id="features">
 
     <div id="sub_feature_container">
       <div class="sub_feature">
         <br><br>
-        <h2>Student View</h2>
-        <p style = "margin-bottom=30px;">Students can view information posted by teachers and admin.</p>
+        <h2><span class = "card-title">Student View</span></h2>
+        <p style = "margin-bottom=30px;"><span class = "card-subtitle">Students can view information posted by teachers and admin.</span></p>
         <ul class = "views" style = "margin-top:20px">
           <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Schedule</span></li>
@@ -395,8 +389,8 @@
       </div>
       <div class="sub_feature">
         <br><br>
-        <h2>Parent View</h2>
-        <p>Parents can view information pertaining to their students.</p>
+        <h2><span class = "card-title">Parent View</span></h2>
+        <p><span class = "card-subtitle">Parents can view information pertaining to their students.</span></p>
         <br>
         <ul class = "views" style = "margin-top:20px">
           <li class = "list-title"><span class = "view-list-title">View</span></li>
@@ -408,8 +402,8 @@
       </div>
       <div class="sub_feature">
          <br><br>
-        <h2>Teacher View</h2>
-        <p>Teachers can view student data and submit information.</p>
+        <h2><span class = "card-title">Teacher View</span></h2>
+        <p><span class = "card-subtitle">Teachers can view student data and submit information.</span></p>
         <ul class = "views" style = "margin-top:20px">
           <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Student Schedules</span></li>
@@ -428,8 +422,8 @@
       </div>
       <div class="sub_feature">
         <br><br>
-        <h2>Administration View</h2>
-        <p>Admin can view and submit student and teacher data.</p>
+        <h2><span class = "card-title">Administrator View</span></h2>
+        <p><span class = "card-subtitle">Administrators can view and submit student and teacher data.</span></p>
         <ul class = "views" style = "margin-top:20px">
           <li class = "list-title"><span class = "view-list-title">View</span></li>
           <li><span class = "view-list">Student Schedules</span></li>
