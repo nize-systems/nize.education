@@ -189,8 +189,3 @@ footer a:hover .header_new_button {
     margin-left: 0px;
   }
 }
-
-header nav > a:hover {
-  color: #7A94FF;
-  border-bottom: 2px solid #7A94FF;
-}
