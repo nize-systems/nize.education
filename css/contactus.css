@@ -1,6 +1,5 @@
 
 .gray-box {
-  border-bottom: 600px solid lightgray;
   width:100%;
   margin-top:10%;
   margin-left: 10%;
@@ -22,11 +21,10 @@ main section:not(.subsection) {
 
 @media only screen and (max-width:820px) {
     .gray-box {
-        border-bottom: 400px solid lightgray;
         width:80%;
         margin-left:6%;
         margin-right: 14%;
-        margin-top:-100px;
+        margin-top:-250px;
     }
 
     #after_load section {
@@ -42,6 +40,6 @@ main section:not(.subsection) {
 
 @media only screen and (max-width:600px) {
     .gray-box {
-        margin-top: -50px;
+        margin-top: -200px;
     }
 }
