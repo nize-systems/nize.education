@@ -1,0 +1,196 @@
+header {
+  position: fixed;
+  width: 100vw;
+  height: 55px;
+  z-index: 10000;
+  background-color: #FFF;
+  transition: 0.3s;
+}
+
+header img {
+  height: 50px;
+  float: left;
+  cursor: pointer;
+  margin-left: calc(8vw - 10px);
+  margin-top: 2.5px;
+}
+
+header p {
+  cursor: pointer;
+  float: left;
+  line-height: 50px;
+  margin-left: 15px;
+  font-family: "GT America";
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 18px;
+  color: #222222;
+}
+
+header nav {
+  margin-right: 15vw;
+  font-weight: 100;
+  float: right;
+}
+
+header nav > a {
+  transition: 0.3s;
+  cursor: pointer;
+  float: left;
+  width: 90px;
+  height: 53px;
+  margin-left: 30px;
+  margin-top: -2px;
+  text-align: center;
+  color: #222222;
+  line-height: 53px;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+footer {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px;
+  bottom: 0px;
+  padding-left: calc(25%);
+  font-weight: 100;
+  float: left;
+  border-top: 1px solid rgba(200, 200, 200, 0.47);
+  padding-bottom: 30px;
+  width: 100vw;
+  background-color: #222222;
+  z-index: 10000;
+}
+
+footer a {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer a:hover {
+  transition: 0.3s;
+  color: #7A94FF;
+}
+
+footer a:hover .header_new_button {
+  background-color: #7A94FF;
+}
+
+#footer_left {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: calc(40% - 3% - 50px);
+  float: left;
+}
+
+#footer_right {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: calc(60% - 3% - 50px);
+  float: left;
+}
+
+#footer_logo {
+  width: 125px;
+}
+
+#footer_desc {
+  color: #cccccc;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 22px;
+  width: 70%;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  height: unset;
+  text-align: left;
+}
+
+.footer_col_title {
+  height: unset;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  line-height: unset;
+  font-weight: 500;
+  cursor: default;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.footer_col_link {
+  float: left;
+  clear: both;
+  width: 100%;
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 33px;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer_info_column {
+  float: left;
+  display: inline-block;
+  margin-right: 15%;
+}
+
+.footer_social {
+  margin-left: -5px;
+}
+
+.notfound-social > a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #efefef;
+  border-radius: 50%;
+  margin: 3px;
+  -webkit-transition: 0.2s all;
+  text-align: center;
+  transition: 0.2s all;
+}
+
+.notfound-social > a:hover {
+  color: #fff;
+  background-color: #7A94FF;
+  border-color: #7A94FF;
+}
+
+/* RESPONSIVE FOR MOBILE */
+@media (max-width: 1000px) {
+  #footer_left {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0;
+  }
+
+  #footer_desc {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  #footer_right {
+    display: none;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+header nav > a:hover {
+  color: #7A94FF;
+  border-bottom: 2px solid #7A94FF;
+}

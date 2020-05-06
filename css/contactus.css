@@ -1,0 +1,9 @@
+
+.gray-box {
+  border-bottom: 600px solid lightgray;
+  width: 80%;
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
