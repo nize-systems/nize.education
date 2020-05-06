@@ -141,7 +141,7 @@ header {
 
 #first-wavy-line {
     margin-left: -8vw;
-    top: -710px;
+    top: -780px;
     position: relative;
     z-index: -1;
 }
@@ -630,7 +630,7 @@ ul {
 
 #about {
     background-color: #7A94FF;
-    margin-top: -720px;
+    margin-top: -800px;
     height: 90vh;
     margin-bottom:-1vh;
     display: inline-block;
@@ -1186,7 +1186,7 @@ ul {
     }
 
     .main_sec {
-        width: 30vw;
+        width: 35vw;
         height: 770px;
         margin-bottom:75px;
     }
