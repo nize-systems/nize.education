@@ -123,6 +123,10 @@ main section:not(.subsection) {
   height: calc(870px);
 }
 
+main section:not(.subsection):nth-last-of-type(1) {
+  height: 640px;
+}
+
 /* Customize website's scrollbar like Mac OS
 Not supports in Firefox and IE */
 
