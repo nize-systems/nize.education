@@ -1518,3 +1518,52 @@ ul {
         height:680px;
     }
 }
+
+.lighter {
+    font-weight: lighter;
+}
+
+.opac0 {
+    opacity: 0;
+}
+
+.yes {
+    color:#36D1AB;
+}
+
+.no {
+    color:#BBBBBB;
+}
+
+.choose {
+    color:#FFD579;
+}
+
+.lgmg {
+    margin-top:-60px;
+    margin-right:40px;
+}
+
+.smmg {
+    margin-right:40px;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.green {
+    background-color: #36D1AB;
+}
+
+.orange {
+    background-color: #FFD579;
+}
+
+.blue {
+    background-color: #7A94FF;
+}
+
+.bluec {
+    color: #7A94FF;
+}
