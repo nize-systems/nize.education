@@ -1309,3 +1309,12 @@ main section:not(.subsection) {
         margin-top: -200px;
     }
 }
+
+.nblue {
+  color: #7a94ff !important;
+}
+
+.typeform-widget {
+  width: 100%;
+  height: 500px;
+}
