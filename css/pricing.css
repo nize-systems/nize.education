@@ -1428,9 +1428,9 @@ ul {
 .bottom-btn {
     z-index: 10000;
     width: 220px;
-    margin-left: 0.5%;
+    margin-left: 8%;
     height: 50px;
-    margin-top: 4%;
+    margin-top: 13%;
     margin-right: 100px;
     border-radius: 10px;
     background-color: #7A94FF;
@@ -1443,6 +1443,7 @@ ul {
     cursor: pointer;
     display: inline-block;
     color: white;
+    text-decoration: none;
 }
 
 .left {
@@ -1468,14 +1469,14 @@ ul {
     }
 
 @media only screen and (max-width:1235px) {
-    .button-stack {
-        margin-top: 10%;
+    .bottom-btn{
+        margin-top: 16%;
     }
 }
 
 @media only screen and (max-width:930px) {
-    .button-stack {
-        margin-top: 30%;
+    .bottom-btn {
+        margin-top: 40%;
     }
 
     .bottom-pg {
@@ -1495,8 +1496,8 @@ ul {
 
 @media only screen and (max-width:500px) {
 
-    .button-stack {
-        margin-top: 60%;
+    .bottom-btn {
+        margin-top: 80%;
     }
 
     .bottom-pg {
