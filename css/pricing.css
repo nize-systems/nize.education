@@ -1516,6 +1516,26 @@ ul {
     }
 }
 
+@media only screen and (max-width: 560px) {
+    .left {
+        width: 100vw;
+    }
+
+    .bottom-pg {
+        margin-top: 10%;
+    }
+
+    .right {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .bottom-btn {
+        margin-top: 2%;
+        margin-right: 0;
+    }
+}
+
 .lighter {
     font-weight: lighter;
 }
