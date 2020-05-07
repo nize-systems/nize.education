@@ -1265,3 +1265,11 @@ ul li::before {
         line-height: 28px;
     }
 }
+
+.opac0 {
+  opacity: 0;
+}
+
+.bgnb {
+  background-color: #7a94ff;
+}
