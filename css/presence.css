@@ -1705,3 +1705,11 @@ ol li::before {
     }
 
 }
+
+.opac0 {
+  opacity: 0;
+}
+
+.lighter {
+  font-weight: lighter;
+}
