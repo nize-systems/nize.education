@@ -135,7 +135,8 @@ Not supports in Firefox and IE */
   ::-webkit-scrollbar-track {
     border-radius: 12px;
     background-color: #f5f5f5;
-
+  }
+  
   #data_div_left {
     margin-left: -5%;
   }
