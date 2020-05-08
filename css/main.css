@@ -1244,7 +1244,6 @@ ul li::before {
     padding-bottom: 100px;
   }
 }
-
 .desc-title {
     font-size: 22px;
     font-height: 34px;
@@ -1253,6 +1252,18 @@ ul li::before {
 .desc-text {
     font-size: 15px;
     font-height: 14px;
+}
+
+@media only screen and (max-width: 387px) {
+  main section:not(.subsection) {
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 367px) {
+  main section:not(.subsection) {
+    height: 720px;
+  }
 }
 
 @media only screen and (max-width:900px) {
@@ -1264,8 +1275,6 @@ ul li::before {
       margin-left: 0px;
     }
 }
-
-
 
 @media (max-width:1650px) and (min-width:1366px) {
 
