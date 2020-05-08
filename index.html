@@ -12,13 +12,14 @@
     gtag('config', 'G-2DKM0DSNXR');
   </script>
   <meta charset="utf-8">
-  <title>Presence Education Suite | Nize Systems</title>
-  <meta name="description" content="Presence Educational Suite offers powerful attendance tracking solutions, insightful analytics, and custom solutions designed to integrate into your current ecosystem.">
+  <title>Nize Education Suite | Nize Systems</title>
+  <meta name="description" content="Nize Educational Suite offers powerful attendance tracking solutions, insightful analytics, and custom solutions designed to integrate into your current ecosystem.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/fontstylesheet.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css?e">
+  <link rel="stylesheet" href="css/headerfooter.css">
   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
@@ -41,7 +42,7 @@
       "name": "Nize Systems",
       "alternateName": "Nize",
       "foundingDate": "2018",
-      "description": "Presence Educational Suite offers powerful attendance tracking solutions, insightful analytics, and custom solutions designed to integrate into your current ecosystem.",
+      "description": "Nize Educational Suite offers powerful attendance tracking solutions, insightful analytics, and custom solutions designed to integrate into your current ecosystem.",
       "url": "https://nize.education/",
       "logo": "https://nize.education/img/nize_banner_black_transparent.png",
       "sameAs": [
@@ -68,7 +69,7 @@
       },
       "owns": {
         "@type": "Product",
-        "name": "Presence Educational Suite",
+        "name": "Presence",
         "logo": "https://nize.education/img/nize_logo_white.png",
         "image": "http://nize.education/img/nize_banner_white.png",
         "url": "https://nize.education/presence",
@@ -87,7 +88,7 @@
         "review": {
           "@type": "Review",
           "name": "William Thompson",
-          "reviewBody": "Presence offers industry-leading solutions for nearly any purpose. Highly recommend the Presence Suite to fellow educators in the market.",
+          "reviewBody": "Presence offers industry-leading solutions for nearly any purpose. Highly recommend the Nize Suite to fellow educators in the market.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -109,33 +110,23 @@
 </head>
 
 <body>
-<header id="header">
-  <img alt="Nize Logo" src="img/nize_banner_black_transparent.png">
-  <nav>
-    <div class="dropdown">
-      <a style="width: 84px" id="platform">Platform <i class="fa fa-chevron-down"></i></a>
-      <div class="dropdown-content">
-        <a href = "presence.html"><i class="fa fa-gear"></i><p>Presence Features</p><p>Explore the Educational tools and features included.</p></a>
-        <a><i class="fa fa-gear"></i><p>Nize Analytics</p><p>Smart tools for a smarter world.</p></a>
-        <a style="border-bottom: none;"><i class="fa fa-gear"></i><p>Solutions Center</p><p>Learn about custom solutions – tailored to you.</p></a>
-      </div>
-    </div>
-    <a>About</a>
-    <a>Support</a>
-    <a>Pricing</a>
-    <a>Inquire</a>
-  </nav>
-</header>
+    <header id="header">
+      <a href = "index.html"><img alt="Nize Logo" src="img/nize_banner_black_transparent.png"></a>
+      <nav>
+          <a href = "presence.html">Presence</a>
+          <!-- <a href = "underconstruction.html">MicroLibrary</a> -->
+          <a href = "plans.html">Plans</a>
+          <a href = "contactus.html">Contact Us</a>
+      </nav>
+    </header>
 <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
 <main>
   <section id="main_splash">
-    <img id="main_splash_image" src="img/classroom2.jpg" style="display:none;">
-
     <div id="after_load">
-      <section style="z-index: 100000">
+      <section>
         <h1>Nize Education Suite</h1>
         <h2>The future of education is here.</h2>
 
@@ -147,7 +138,7 @@
           <li>Streamlines and automates to suit the fast-pacing world that we live in today.</li>
         </ul>
 
-        <a href = "#first-wavy-line">Explore the Suite<i class="fa fa-chevron-right"></i></a>
+        <a onclick = "seeMore()">Explore the Suite<i class="fa fa-chevron-right"></i></a>
       </section>
       <section id="right">
         <div class="circle c1 yellow"></div>
@@ -168,26 +159,28 @@
   </section>
   <section id="about">
     <div id="about_content">
-      <div id="d1" class="circle2 d1 yellow" style="opacity: 0;"></div>
-      <div id="d2" class="circle2 d2 white" style="opacity: 0;"></div>
-      <div id="d3" class="circle2 d4 yellow" style="opacity: 0;"></div>
-      <div id="d4" class="circle2 d5 white" style="opacity: 0;"></div>
-      <div id="d5" class="circle2 d6 yellow" style="opacity: 0;"></div>
-      <div id="d6" class="circle2 d7 white" style="opacity: 0;"></div>
-      <div id="d7" class="circle2 d8 yellow" style="opacity: 0;"></div>
-      <div id="d8" class="circle2 d9 white" style="opacity: 0;"></div>
-      <div id="d9" class="circle2 d10 yellow" style="opacity: 0;"></div>
+      <div id="d1" class="opac0 circle2 d1 yellow"></div>
+      <div id="d2" class="opac0 circle2 d2 white"></div>
+      <div id="d3" class="opac0 circle2 d4 yellow"></div>
+      <div id="d4" class="opac0 circle2 d5 white"></div>
+      <div id="d5" class="opac0 circle2 d6 yellow"></div>
+      <div id="d6" class="opac0 circle2 d7 white"></div>
+      <div id="d7" class="opac0 circle2 d8 yellow"></div>
+      <div id="d8" class="opac0 circle2 d9 white"></div>
+      <div id="d9" class="opac0 circle2 d10 yellow"></div>
       <h1>Our Products</h1>
       <div id="main_sec_wrapper">
-        <div id="main_sec1" class="main_sec" style="opacity: 0;">
+
+        <div id="main_sec1" class="main_sec opac0">
           <h2>Presence</h2>
           <h3>Attendance, passes, and more, all rolled into one singular practical device backed by a beautiful interface.</h3>
           <a class="more" href = "presence.html" style = "text-decoration:none;">Explore Presence</a>
         </div>
-        <div id="main_sec2" class="main_sec" style="opacity: 0;">
+        <div id="main_sec2" class="main_sec opac0">
           <h2>MicroLibrary</h2>
           <h3>Libraries made easy. Easy check in/out of books, plus reading groups, smart book recommendations, and more.</h3>
-          <a class="more" href = "microlibrary.html" style = "text-decoration:none;">Explore MicroLibrary</a>
+          <a class="more" href="" style = "text-decoration:none;">Coming Fall 2020</a>
+
         </div>
         <!--<div id="main_sec3" class="main_sec" style="opacity: 0;">
           <h2>Powerful Adaptive Software</h2>
@@ -195,7 +188,7 @@
           <a class="more">Nize Analytics</a>
       </div>-->
       </div>
-      <a id="see_more2" onclick="seeMore2()" style="opacity: 0"><i class="fa fa-chevron-down"></i></a>
+      <a id="see_more2" onclick="seeMore2()" class="opac0"><i class="fa fa-chevron-down"></i></a>
     </div>
   </section>
   <svg id="about_after_bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -206,10 +199,11 @@
     <div class="data_div">
       <h1>Why Us?</h1>
       <div class="b_border1"></div>
+      <h2>Nize Systems has the best customers and we want to make sure they get the best in the business.</h2>
         <ul style = "margin-top:5%; margin-left:12%;">
-            <li><strong class = "desc-title">As easy as ABC.</strong><br><span class = "desc-text">Setting up our devices is as easy as it gets. Software comes preinstalled so you don’t have to worry about installing anything. Our support team is on call whenever you need them if you come across any issues. </span></li>
-            <li><strong class = "desc-title">Dime a dozen.</strong><br><span class = "desc-text">Available at a fraction of the cost of our competitors. Pick and choose the features you want and drop the ones that you don’t, it’s that simple.</span></li>
-            <li><strong class = "desc-title">Second to none.</strong><br><span class = "desc-text">The best classroom companion comes with the best features for teachers and students. No compromises whatsoever. </span></li>
+            <li><strong class = "desc-title">Ease of Use</strong><br><span class = "desc-text">Using our devices is as easy as it gets. The user interface is easy to navigate yet quite powerful at the same time. </span></li>
+            <li><strong class = "desc-title">Competitive Pricing</strong><br><span class = "desc-text">Available at a fraction of the cost of our competitors. Pick and choose the features you want. </span></li>
+            <li><strong class = "desc-title">Advanced Technology</strong><br><span class = "desc-text">The best education technology comes with the best features for students, parents, teachers, and administrators. No compromises whatsoever. </span></li>
         </ul>
     </div>
     <script>
@@ -233,9 +227,9 @@
       }
     </script>
     <div class="data_div">
-      <img id="data_analytics_cover_image" src="img/nize_data_anaytics_cover.png" alt="Nize Data Analytics">
+      <img id="data_analytics_cover_image" src="img/nize_suite_isometric_graphic.png" alt="Nize Data Analytics">
     </div>
-    <a id="see_more3" onclick="seeMore3()" style="opacity: 0"><i class="fa fa-chevron-down"></i></a>
+    <a id="see_more3" class="opac0" onclick="seeMore3()"><i class="fa fa-chevron-down"></i></a>
   </section>
 
   <section id="custom_solutions" class="subsection">
@@ -246,11 +240,11 @@
     <div class="data_div" id="data_div_left">
       <h1>State of the Art Security</h1>
       <div class="b_border1"></div>
-      <h2>Your data is yours at all times, and we want to keep it that way. At Nize Systems, we have a zero-trust policy with client data, that means no one can access your data except without being authorized.</h2>
+      <h2>At Nize Systems, we have a zero-trust policy with your data, meaning no one can access it unless authorized.</h2>
       <ul style = "margin-top:5%; margin-left:12%;">
-          <li><strong class = "desc-title">TLS/SSL Encryption</strong><br><span class = "desc-text">Your data is always encrypted using the TLS protocol. TLS provides strong authentication, message privacy, and integrity interoperability, algorithm flexibility, and ease of deployment and use. Or as we like to say, it’s safe. </span></li>
-          <li><strong class = "desc-title">Key Based Authentication</strong><br><span class = "desc-text">Our system has been taught to only allow access if they have the correct key. Because of the complexity of our security algorithms, breaking through this layer of security would take well over a lifetime, but we still rotate our keys frequently to ensure maximum security.</span></li>
-          <li><strong class = "desc-title">Onion Layer Security</strong><br><span class = "desc-text">In addition to Key Based authentication, Nize Education Suite practices all standard security measures and has a variety of other proprietary security measures in place to detect and prevent possible security threats, so any attacker would be bringing a knife to this gunfight.</span></li>
+          <li><strong class = "desc-title">TLS/SSL Encryption</strong><br><span class = "desc-text">TLS provides strong authentication, message privacy, and integrity interoperability, algorithm flexibility, and ease of deployment and use. Simply put, it’s safe. </span></li>
+          <li><strong class = "desc-title">Key Based Authentication</strong><br><span class = "desc-text">Our system only grants access to those with the correct key. Cracking our security would take over a lifetime, but we change keys frequently to ensure maximum security.</span></li>
+          <li><strong class = "desc-title">Onion Layer Security</strong><br><span class = "desc-text">We practice all standard security measures and have a variety of other proprietary security measures in place to detect and prevent possible security threats. </span></li>
       </ul>
     </div>
     <script>
@@ -273,18 +267,17 @@
         }
       }
     </script>
-    <a id="see_more4" onclick="seeMore4()" style="opacity: 0"><i class="fa fa-chevron-down"></i></a>
+    <a id="see_more4" class="opac0" onclick="seeMore4()"><i class="fa fa-chevron-down"></i></a>
   </section>
   <section id="safety" class="subsection">
     <div class="data_div">
-      <h1>Powerful automated analytics tools keep your school or organization working seamlessly around the clock</h1>
+      <h1>Powerful Analytics Tools</h1>
       <div class="b_border1"></div>
-      <h2><a>Presence Educational Tools</a> predict anomalies before the occur and actively work together to mitigate issues in real-time.</h2>
+      <h2>Our software predicts anomalies before they occur and actively work to mitigate issues in real-time.</h2>
       <ul style = "margin-top:5%; margin-left:12%;">
-          <li><strong class = "desc-title">Adaptive Attendance Prediction</strong><br><span class = "desc-text">Powered by Nize Cloud&trade; machine learning, gain insight into attendance patterns and predict absences, attendance, tardiness, and other metrics in live time.</span></li>
+          <li><strong class = "desc-title">Adaptive Attendance Prediction</strong><br><span class = "desc-text">Gain insight into attendance patterns and predict absences, attendance, tardiness, and other metrics in real time, powered by artificial intelligence.</span></li>
           <li><strong class = "desc-title">Campus Threat Monitoring</strong><br><span class = "desc-text">Configure real-time alerts and monitoring for campus supervision, proactively predicting threats before they even occur.</span></li>
           <li><strong class = "desc-title">Emergency Routing Optimization</strong><br><span class = "desc-text">Adapting to current emergency evacuation route density and delays, Smart Map Routing alleviates congestion leading to quicker and safer evacuation.</span></li>
-          <li><strong class = "desc-title">Predictive Network Offloading</strong><br><span class = "desc-text">Nize software automatically establishes sub-networks and mesh offloading systems to alleviate network usage throughout the day.</span></li>
       </ul>
     </div>
     <div class="data_div">
@@ -310,16 +303,16 @@
         }
       }
     </script>
-    <a id="see_more5" onclick="seeMore5()" style="opacity: 0"><i class="fa fa-chevron-down"></i></a>
+    <a id="see_more5" onclick="seeMore5()" class="opac0"><i class="fa fa-chevron-down"></i></a>
   </section>
   <section id="features">
     <h1>Smart features for a smarter school</h1>
-    <div class="sub_bar" style="background-color: #7A94FF"></div>
+    <div class="sub_bar bgnb"></div>
     <div id="sub_feature_container">
       <div class="sub_feature">
         <i class="fas fa-user"></i>
         <h2>Attendance</h2>
-        <p>Automation that makes attendance a walk in the park. Presence allows students to sign into class with their phone or school issued RFID card. Teachers can check attendance records and more on their Presence Portal at an instant.</p>
+        <p>Automation that makes attendance a walk in the park. Presence allows students to sign into class with their phone or school-issued RFID card. Teachers can check attendance records and more on their Presence Portal in real-time.</p>
         <!-- <a href = "presence.html">Read More</a> -->
       </div>
       <div class="sub_feature">
@@ -330,7 +323,7 @@
       </div>
       <div class="sub_feature">
         <i class="fas fa-door-closed"></i>
-        <h2>Class sign in/out</h2>
+        <h2>Class Sign In/Out</h2>
         <p>Replace those clipboards with something more modern. Students can sign in and out of class with just a tap. When a student signs out or in, it is recorded and available for the teacher at all times.</p>
         <!-- <a href = "presence.html">Read More</a> -->
       </div>
@@ -380,8 +373,8 @@
         </div>
         <div class="feature">
           <i class="fa fa-check"></i>
-          <h2>Support. At no cost.</h2>
-          <p>At Nize Systems, we have the best customers in the world, and we want to make sure they get the best support. Which is why we offer a month of round-the-clock support at no charge with all of our products and services. All day. Everyday.</p>
+          <h2>World-Class Support</h2>
+          <p>At Nize Systems, we have the best customers in the world and we want to make sure they get the best support.</p>
         </div>
     </div>
 </section>
@@ -441,7 +434,7 @@
 <footer>
   <div id="footer_left">
     <a href="https://nize.education"><img src="./img/nize_banner_white_transparent.png" id="footer_logo" alt="Nize Logo"></a>
-    <p id="footer_desc">Educational management tools designed to make the classroom a safer and friendlier place.</p>
+    <p id="footer_desc">Custom educational tools designed for the 21st century.</p>
     <div class="notfound-social noselect footer_social">
       <a href="https://www.linkedin.com/company/nize-systems/" target="_blank"><i class="fa fa-linkedin"></i></a>
       <a href="https://www.facebook.com/nizesystems" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -452,26 +445,22 @@
   <div id="footer_right">
     <div class="footer_info_column">
       <h3 class="footer_col_title">Discover</h3>
-      <a class="footer_col_link" href="https://nize.education">Education Tools</a>
-      <a class="footer_col_link" href="https://nize.education">Presence Attendance</a>
-      <a class="footer_col_link" href="https://nize.education">NizeSense&trade; WiFi</a>
-      <a class="footer_col_link" href="https://nize.education">Library Management</a>
+      <a class="footer_col_link" href="presence.html">Presence</a>
+      <!-- <a class="footer_col_link" href="underconstruction.html">MicroLibrary</a> -->
+      <a class="footer_col_link" href="plans.html">Plans</a>
     </div>
     <div class="footer_info_column">
       <h3 class="footer_col_title">Company</h3>
-      <a class="footer_col_link" href="">About</a>
-      <a class="footer_col_link" href="">Support</a>
-      <a class="footer_col_link" href="">Inquire</a>
-      <a class="footer_col_link" href="">Sitemap</a>
+      <a class="footer_col_link" href="contactus.html">Contact Us</a>
+      <a class="footer_col_link" href="#">Sitemap</a>
     </div>
     <div class="footer_info_column">
       <h3 class="footer_col_title">Legal</h3>
-      <a class="footer_col_link" href="">Terms of Use</a>
-      <a class="footer_col_link" href="">Privacy Policy</a>
+      <a class="footer_col_link" href="#">Terms of Use</a>
+      <a class="footer_col_link" href="#">Privacy Policy</a>
     </div>
   </div>
 </footer>
-
 
 <!-- Add your site or application content here -->
 <script src="js/vendor/modernizr-3.8.0.min.js"></script>
