@@ -92,9 +92,9 @@ header nav > a {
     .mobile-menu {
         position: absolute;
         top: 0;
-        height: 100vh;
+        height: 102vh;
         width: 100vw;
-        background-color: #d0dee988;
+        background-color: #d0dee9ee;
         display: none
     }
 
