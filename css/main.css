@@ -321,6 +321,16 @@ Not supports in Firefox and IE */
   color: #7A94FF;
 }
 
+#microlib-more {
+  background-color: white;
+  color: #7A94FF;
+}
+
+#microlib-more:hover {
+  border: 2px solid white;
+  cursor: default;
+}
+
 footer {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
