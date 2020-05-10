@@ -57,7 +57,7 @@ header nav > a {
     display: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
     .mobile-only {
         display: initial
     }
