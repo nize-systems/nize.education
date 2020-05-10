@@ -113,24 +113,29 @@
 </head>
 
 <body>
-    <header id="header">
-        <a href="/"><img alt="Nize Logo" src="img/nize_banner_black_transparent.png"></a>
+     <header id="header">
+        <a href = "index.html"><img alt="Nize Logo" src="img/nize_banner_black_transparent.png"></a>
         <nav>
-            <!-- <div class="dropdown">
-      <a style="width: 84px" id="platform">Platform <i class="fa fa-chevron-down"></i></a>
-      <div class="dropdown-content">
-        <a><i class="fa fa-gear"></i><p>Presence Features</p><p>Explore the Educational tools and features included.</p></a>
-        <a><i class="fa fa-gear"></i><p>Nize Analytics</p><p>Smart tools for a smarter world.</p></a>
-        <a style="border-bottom: none;"><i class="fa fa-gear"></i><p>Solutions Center</p><p>Learn about custom solutions – tailored to you.</p></a>
-      </div>
-    </div> -->
-            <a href="presence.html">Presence</a>
-            <a href="plans.html">Plans</a>
-            <!-- <a style="text-decoration: none;" href="/support.html">Support Center</a> -->
-            <a href="contactus.html">Contact Us</a>
+            <a href = "presence.html">Presence</a>
+            <a href = "underconstruction.html">MicroLibrary</a>
+            <a href = "plans.html">Plans</a>
+            <a href = "contactus.html">Contact Us</a>
         </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/nav.js" type="text/javascript"></script>
+        <button id="mobile-nav-btn" class="mobile-only show" alt="menu button">
+      <img src="img/menu.png" alt="menu icon">
+    </button>
+    <div class="mobile-menu mobile-only">
+      <ul class="nav-text">
+        <li><a href="presence.html">Presence</a></li>
+        <li><a href="underconstruction.html">MicroLibrary</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><button id="mobile-menu-close">close</button></li>
+      </ul>
+    </div>
     </header>
-
 
 
     <!--[if IE]>
