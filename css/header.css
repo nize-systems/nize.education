@@ -114,7 +114,8 @@ header nav > a {
     }
 
     .nav-text li {
-        padding: 2vh 0
+        padding: 2vh 0;
+    	width: 100% !important;	
     }
 
     header nav {
