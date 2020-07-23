@@ -8254,6 +8254,9 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .hero-wrap .slider-text h1 {
         font-size: 40px; } }
+    @media (max-width: 470px) {
+      .hero-wrap .slider-text h1 {
+        font-size: 30px; } }
     .hero-wrap .slider-text h1 span {
       color: #7A94FF; }
   .hero-wrap .slider-text .subheading {

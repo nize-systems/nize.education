@@ -135,7 +135,17 @@
 	<div class="hero-wrap js-fullheight">
 		<div class="home-slider js-fullheight owl-carousel">
 
-			<div class="slider-item js-fullheight" style="background-image:url(images/banner_1.jpg);">
+			<div class="slider-item js-fullheight" style="" id="slider-banner-image1">
+				<style>
+					#slider-banner-image1 {
+						background-image: url(images/banner_1.jpg);
+					}
+					@media (max-width: 650px) {
+						#slider-banner-image1 {
+							background-image: url(images/banner_1_mobile.png);
+						}
+					}
+				</style>
 				<div class="overlay"></div>
 				<div class="container" style="margin-left: 0">
 					<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -150,7 +160,17 @@
 				</div>
 			</div>
 
-			<div class="slider-item js-fullheight" style="background-image:url(images/banner_2.jpg);">
+			<div class="slider-item js-fullheight" id="slider-banner-image2">
+				<style>
+					#slider-banner-image2 {
+						background-image: url(images/banner_2.jpg);
+					}
+					@media (max-width: 650px) {
+						#slider-banner-image2 {
+							background-image: url(images/banner_2_mobile.png);
+						}
+					}
+				</style>
 				<div class="overlay"></div>
 				<div class="container" style="margin-left: 0">
 					<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -204,7 +224,7 @@
 					</div>
 				</div>
 			</div>
-			<a id="quote" style="margin-top: -85px;"></a>
+			<a id="quote" style="margin-top: -85px;" href="#"></a>
 			<div class="col-lg-5 d-flex align-items-stretch">
 				<div class="bg-white">
 					<div class="w-100 heading-title bg-primary text-center">
@@ -691,7 +711,6 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/scrollax.min.js"></script>
-<script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 
 </body>
