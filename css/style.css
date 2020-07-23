@@ -463,6 +463,12 @@ pre {
     .container {
       max-width: 1140px; } }
 
+  @media (max-width: 1200px) and (min-width: 960px) {
+    .flex-md-column-reverse {
+      padding-top: 60px;
+    }
+  }
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
