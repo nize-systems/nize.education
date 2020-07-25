@@ -9206,6 +9206,8 @@ textarea.form-control {
     .heading-section h2 {
       font-size: 28px; } }
 
+@media (max-width:470px){.owl-carousel.home-slider .slider-item .slider-text h1{font-size:34px}
+
 .heading-section.heading-section-white .subheading {
   color: #000000; }
 
