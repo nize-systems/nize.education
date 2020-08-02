@@ -70,7 +70,7 @@
 		</div>
 	</nav>
 	<!-- END nav -->
-	<div class="hero-wrap hero-wrap-2" style="background-image: url('images/sf_background.jpg');" data-stellar-background-ratio="0.5">
+	<div class="hero-wrap hero-wrap-2" style="background-image: url('images/sf_background.jpg');" data-stellar-background-ratio="0.5" id="wrap-container-image">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
@@ -83,7 +83,7 @@
 	</div>
 </section>
 
-<section class="ftco-section ftco-no-pt bg-light" style="padding-bottom: 80px;">
+<section class="ftco-section ftco-no-pt bg-light" style="padding-bottom: 80px;" id="main-container">
 	<div class="container">
 		<div class="row d-flex no-gutters">
 			<div class="col-md-6 d-flex">
@@ -294,9 +294,7 @@
 	</div>
 </footer>
 
-
-
-<!-- loader -->
+	<!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
@@ -315,6 +313,28 @@
 <script src="js/scrollax.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/main.js"></script>
+
+<script>
+	$(window).on('scroll', function() {
+		if ($(this).scrollTop() >= 500) {
+			//fixed header
+			document.getElementById("ftco-navbar").style.position = "fixed";
+			document.getElementById("ftco-navbar").style.zIndex = "1000";
+			document.getElementById("ftco-navbar").style.width = "100%";
+			document.getElementById("ftco-navbar").style.top = "0";
+			document.getElementById("main-container").style.marginTop = "85px";
+
+
+			//position:fixed;z-index:1000;width:100%;
+			//$("#ftco-navbar").style.position = "fixed";
+		} else {
+			//not fixed header
+			document.getElementById("ftco-navbar").style.position = "";
+			document.getElementById("ftco-navbar").style.top = "revert";
+			document.getElementById("main-container").style.marginTop = "0px";
+		}
+	});
+</script>
 
 </body>
 </html>

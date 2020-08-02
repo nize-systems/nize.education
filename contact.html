@@ -83,7 +83,7 @@
 	</div>
 </section>
 
-<section class="ftco-section bg-light">
+<section class="ftco-section bg-light" id="main-container">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-12">
@@ -253,6 +253,28 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+	$(window).on('scroll', function() {
+		if ($(this).scrollTop() >= 500) {
+			//fixed header
+			document.getElementById("ftco-navbar").style.position = "fixed";
+			document.getElementById("ftco-navbar").style.zIndex = "1000";
+			document.getElementById("ftco-navbar").style.width = "100%";
+			document.getElementById("ftco-navbar").style.top = "0";
+			document.getElementById("main-container").style.marginTop = "85px";
+
+
+			//position:fixed;z-index:1000;width:100%;
+			//$("#ftco-navbar").style.position = "fixed";
+		} else {
+			//not fixed header
+			document.getElementById("ftco-navbar").style.position = "";
+			document.getElementById("ftco-navbar").style.top = "revert";
+			document.getElementById("main-container").style.marginTop = "0px";
+		}
+	});
+</script>
 
 </body>
 </html>

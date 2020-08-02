@@ -1641,7 +1641,7 @@ pre {
     opacity: 1; }
   .form-control::placeholder {
     color: #6c757d;
-    opacity: 1; }
+    opacity: 0.4; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
     opacity: 1; }
@@ -8862,10 +8862,13 @@ h1, h2, h3, h4, h5,
     .appointment .form-group .btn {
       width: 100%;
       display: block !important; }
-  .appointment .form-control {
+.appointment .form-control::placeholder {
+  color: blue;
+}
+.appointment .form-control {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: white !important;
-    color: rgba(0, 0, 0, 0.8) !important;
+    color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     font-weight: 500;
     border-radius: 4px;
@@ -8873,7 +8876,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
     .appointment .form-control::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: rgba(0, 0, 0, 0.8); }
+      color: rgba(0, 0, 0, 0.8);}
     .appointment .form-control::-moz-placeholder {
       /* Firefox 19+ */
       color: rgba(0, 0, 0, 0.8); }
@@ -8959,7 +8962,7 @@ h1, h2, h3, h4, h5,
 .form-control {
   height: 52px !important;
   background: #fff !important;
-  color: #000000 !important;
+  color: #000000;
   font-size: 14px;
   border-radius: 5px;
   -webkit-box-shadow: none !important;
