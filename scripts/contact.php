@@ -1,5 +1,7 @@
 <?php
 if(isset($_POST['submit'])) {
+    echo "what up";
+
     $to_address="nizesystems@gmail.com";
     $subject="Nize.education Contact Us";
     $name=$_POST['name'];
@@ -15,5 +17,7 @@ if(isset($_POST['submit'])) {
     $headers.= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
     mail($to_address, $subject, $message, $headers);
+} else {
+    echo "testing";
 }
 ?>
