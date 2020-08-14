@@ -1,4 +1,4 @@
-<php
+<?php
 if(isset($_POST['submit'])) {
     $to_address="nizesystems@gmail.com";
     $subject="Nize.education Contact Us";
