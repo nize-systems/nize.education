@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vCard Download</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var link = document.createElement('a');
+            link.href = 'data:text/vcard;charset=utf-8,' + encodeURIComponent("BEGIN:VCARD\nVERSION:3.0\nFN:John Doe\nTEL:1234567890\nEMAIL:john.doe@example.com\nEND:VCARD");
+            link.download = 'laith.vcf';
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
